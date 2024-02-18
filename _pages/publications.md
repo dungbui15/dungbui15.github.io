@@ -7,7 +7,7 @@ author_profile: true
 tags: test
 categories: TestCategories
 ---
-\textbf{CONFERENCE PUBLICATIONS}
+CONFERENCE PUBLICATIONS:
 
 | Conference | Article                                        | Links |
 | -----|---------------------------------------- | -------------|
@@ -15,7 +15,7 @@ categories: TestCategories
 | PKC 2023  | Improved Private Set Intersection for Sets with Small Entries <br> *Geoffroy Couteau and Dung Bui* | [ePrint](https://eprint.iacr.org/2022/334.pdf), [Springer](https://link.springer.com/chapter/10.1007/978-3-031-31371-4_7) |
 
 ---
-PREPRINTS
+PREPRINTS:
 | Article                                        | Links |
 |---------------------------------------- | -------------|
 | Short Signatures from Regular Syndrome Decoding, Revisited <br> *Dung Bui, Eliana Carozza, Geoffroy Couteau, Dahmun Goudarzi, Antoine Joux* | [ePrint](https://eprint.iacr.org/2024/252) |
