@@ -9,13 +9,6 @@ tags: test
 categories: TestCategories
 ---
 ---
-
-<style>
-div {
-  text-align: justify;
-  text-justify: inter-word;
-}
-</style>
  
 1. Jul 2023, COSIC KU Leuven (Leuven, Belgium)
 2. May 2023, PKC 2023 (Atlanta, USA)
