@@ -11,13 +11,11 @@ CONFERENCE PUBLICATIONS:
 
 1. Fast Public-Key Silent OT and More from Constrained Naor-Reingold [ [ePrint](https://eprint.iacr.org/2024/178)]
    <br> *Dung Bui, Geoffroy Couteau, Pierre Meyer, Alain Passelègue, Mahshid Riahinia*
-   
-    In EUROCRYPT 2024
+   <br> In EUROCRYPT 2024
    
 3. Improved Private Set Intersection for Sets with Small Entries [ [ePrint](https://eprint.iacr.org/2022/334.pdf)]
    <br> *Geoffroy Couteau and Dung Bui*
-   
-   In PKC 2023
+   <br> In PKC 2023
 
 PREPRINTS:
 
