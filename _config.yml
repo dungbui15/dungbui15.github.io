@@ -28,7 +28,7 @@ author:
   location         : "Paris-FR"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : https://scholar.google.com/citations?user=StGOHMUAAAAJ&hl=en&authuser=1
+  googlescholar    : "https://scholar.google.com/citations?user=StGOHMUAAAAJ&hl=en&authuser=1"
   email            : "bui@irif.fr"
 
   # Academic websites
