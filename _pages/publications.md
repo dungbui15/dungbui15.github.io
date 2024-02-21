@@ -14,7 +14,7 @@ CONFERENCE PUBLICATIONS:
    <br> In EUROCRYPT 2024
    
 2. Improved Private Set Intersection for Sets with Small Entries [ [ePrint](https://eprint.iacr.org/2022/334.pdf)]
-   <br> *Geoffroy Couteau and Dung Bui*
+   <br> *Dung Bui, Geoffroy Couteau*
    <br> In PKC 2023
 
 PREPRINTS:
