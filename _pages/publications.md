@@ -18,7 +18,7 @@ CONFERENCE PUBLICATIONS:
    <br> In PKC 2023
 
 PREPRINTS:
-1. FOLEAGE: $\mathcal{F}_4$OLE-Based Multi-Party Computation for Boolean Circuits [[ePrint](https://eprint.iacr.org/2024/429)]
+1. FOLEAGE: F4OLE-Based Multi-Party Computation for Boolean Circuits [[ePrint](https://eprint.iacr.org/2024/429)]
    <br> *Maxime Bombar, Dung Bui, Geoffroy Couteau, Alain Couvreur, Clément Ducros, Sacha Servan-Schreiber*
 
 3. Short Signatures from Regular Syndrome Decoding, Revisited [[ePrint](https://eprint.iacr.org/2024/252)]
