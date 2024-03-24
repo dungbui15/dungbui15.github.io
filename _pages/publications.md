@@ -18,7 +18,7 @@ CONFERENCE PUBLICATIONS:
    <br> In PKC 2023
 
 PREPRINTS:
-1. Shorter VOLEitH Signature from Multivariate Quadratic [[ePrint] (https://eprint.iacr.org/2024/465)]
+1. Shorter VOLEitH Signature from Multivariate Quadratic [[ePrint](https://eprint.iacr.org/2024/465)]
    <br> *Dung Bui*
    
 2. FOLEAGE: F4OLE-Based Multi-Party Computation for Boolean Circuits [[ePrint](https://eprint.iacr.org/2024/429)]
