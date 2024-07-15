@@ -23,6 +23,9 @@ Improved Private Set Intersection for Sets with Small Entries [ [ePrint](https:/
 
 PREPRINTS:
 
+Structured-Seed Local Pseudorandom Generators and their Applications [[ePrint](https://eprint.iacr.org/2024/1027)]
+<br> *Dung Bui, Geoffroy Couteau, Nikolas Melissaris*
+
 Shorter VOLEitH Signature from Multivariate Quadratic [[ePrint](https://eprint.iacr.org/2024/465)]
    <br> *Dung Bui*
    
