@@ -11,7 +11,7 @@ PUBLICATIONS:
 
 An Efficient ZK Compiler from SIMD Circuits to General Circuits [[ePrint](https://eprint.iacr.org/2023/1610)]
 <br> *Dung Bui, Haotian Chu, Geoffroy Couteau, Xiao Wang, Chenkai Weng, Kang Yang, Yu Yu* 
-<br> In Journal of Cryptology
+<br> In Journal of Cryptology 2024
 
 Fast Public-Key Silent OT and More from Constrained Naor-Reingold [ [ePrint](https://eprint.iacr.org/2024/178)]
    <br> *Dung Bui, Geoffroy Couteau, Pierre Meyer, Alain Passelègue, Mahshid Riahinia*
