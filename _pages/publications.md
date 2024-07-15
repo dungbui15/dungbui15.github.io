@@ -8,6 +8,7 @@ tags: test
 categories: TestCategories
 ---
 PUBLICATIONS:
+
 An Efficient ZK Compiler from SIMD Circuits to General Circuits [[ePrint](https://eprint.iacr.org/2023/1610)]
 <br> *Dung Bui, Haotian Chu, Geoffroy Couteau, Xiao Wang, Chenkai Weng, Kang Yang, Yu Yu* 
 <br> In Journal of Cryptology
@@ -21,6 +22,7 @@ Improved Private Set Intersection for Sets with Small Entries [ [ePrint](https:/
    <br> In PKC 2023
 
 PREPRINTS:
+
 Shorter VOLEitH Signature from Multivariate Quadratic [[ePrint](https://eprint.iacr.org/2024/465)]
    <br> *Dung Bui*
    
