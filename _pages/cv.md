@@ -4,6 +4,6 @@ title: "CV"
 permalink: /cv/
 author_profile: true
 redirect_from:
-  - /files/CV.pdf
+  - /files/PhD_CV.pdf
 ---
 
