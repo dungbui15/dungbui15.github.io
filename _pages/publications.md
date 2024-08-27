@@ -8,14 +8,14 @@ tags: test
 categories: TestCategories
 ---
 PUBLICATIONS:
-
-Short Signatures from Regular Syndrome Decoding, Revisited [[ePrint](https://eprint.iacr.org/2024/252)]
-    <br> *Dung Bui, Eliana Carozza, Geoffroy Couteau, Dahmun Goudarzi, Antoine Joux*
-    <br> In ASIACRYPT 2024
     
 FOLEAGE: F4OLE-Based Multi-Party Computation for Boolean Circuits [[ePrint](https://eprint.iacr.org/2024/429)]
    <br> *Maxime Bombar, Dung Bui, Geoffroy Couteau, Alain Couvreur, Clément Ducros, Sacha Servan-Schreiber*
    <br> In ASIACRYPT 2024
+   
+Short Signatures from Regular Syndrome Decoding, Revisited [[ePrint](https://eprint.iacr.org/2024/252)]
+    <br> *Dung Bui, Eliana Carozza, Geoffroy Couteau, Dahmun Goudarzi, Antoine Joux*
+    <br> In ASIACRYPT 2024
    
 An Efficient ZK Compiler from SIMD Circuits to General Circuits [[ePrint](https://eprint.iacr.org/2023/1610)]
 <br> *Dung Bui, Haotian Chu, Geoffroy Couteau, Xiao Wang, Chenkai Weng, Kang Yang, Yu Yu* 
