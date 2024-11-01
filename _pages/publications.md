@@ -30,6 +30,8 @@ Improved Private Set Intersection for Sets with Small Entries [ [ePrint](https:/
    <br> In PKC 2023
 
 PREPRINTS:
+Critical Round in Multi-Round Proofs: Compositions and Transformation to Trapdoor Commitments [[ePrint](https://eprint.iacr.org/2024/1766)]
+<br> *Masayuki Abe, David Balbás, Dung Bui, Miyako Ohkubo, Zehua Shang, Mehdi Tibouchi*
 
 Structured-Seed Local Pseudorandom Generators and their Applications [[ePrint](https://eprint.iacr.org/2024/1027)]
 <br> *Dung Bui, Geoffroy Couteau, Nikolas Melissaris*
