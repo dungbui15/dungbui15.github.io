@@ -17,10 +17,10 @@ I spent the summer of 2023 as a research intern at [COSIC](https://www.esat.kule
 
 
 ## Professional Activities
- \begin{itemize}
-\item \textbf{External Reviewer:} TCC 2022, CSF 2022--2023, IEEE-TIFs 2023, EUROCRYPT 2025.
-\item \textbf{Program Committee:} APKC 2025, Latincrypt 2025.
- \end{itemize}
+\textbf{External Reviewer:} TCC 2022, CSF 2022--2023, IEEE-TIFs 2023, EUROCRYPT 2025.
+
+\textbf{Program Committee:} APKC 2025, Latincrypt 2025.
+
 
 ## Presentation
 A list of talks where I had the opportunity to present and discuss my work.
