@@ -2,14 +2,19 @@
 permalink: /
 title: "About"
 author_profile: true
+classes: wide
+excerpt: "I am a PhD at IRIF, Université de Paris."
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-<div style="display: flex; flex-wrap: wrap; gap: 20px;">
-
-<div style="flex: 1 1 48%;">
+<style>
+div {
+  text-align: justify;
+  text-justify: inter-word;
+}
+</style>
 
 Since October 2021, I am a PhD student at [IRIF](https://www.irif.fr/), Université Paris Cité, under the supervision of [Geoffroy Couteau](https://geoffroycouteau.github.io/). In 2019 -- 2021, I got my Master's degree in Cryptology and Information Security [Cryptis program](https://www.cryptis.fr/) at Université de Limoges. 
 
@@ -21,9 +26,7 @@ I spent the summer of 2023 as a research intern at [COSIC](https://www.esat.kule
 
 Before starting my PhD, I interned at [XLIM](https://www.xlim.fr/en) in the summer of 2020 under the supervision of [Duong Hieu Phan](https://www.di.ens.fr/users/phan/index.html),  and in the summer of 2021, I worked as an intern at [IRIF](https://www.irif.fr/) with [Geoffroy Couteau](https://geoffroycouteau.github.io/). 
 
-</div>
 
-<div style="flex: 1 1 48%;">
 
 ### Publications
 
@@ -78,9 +81,6 @@ A list of talks where I had the opportunity to present and discuss my work.
 | Jul 2022    | CWI (Crypto Student Seminar)                                 | Virtual               |
 | Apr 2022    | Journées C2 (Codage & Cryptographie) (Workshop)              | Hendaye, France       |
 
-</div>
-
-</div>
 
 ### Professional Activities
 - **External Reviewer**: TCC 2022, CSF 2022–2023, IEEE-TIFs 2024, EUROCRYPT 2025.
