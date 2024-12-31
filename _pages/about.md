@@ -59,8 +59,8 @@ A list of talks where I had the opportunity to present and discuss my work.
 - Dec 2024: Asiacrypt 2024 (Conference) - Kolkata, India
 - Dec 2024: CWI (Crypto Student Seminar) - Amsterdam, Netherlands
 - Nov 2024: Telecom Paris, Institut Polytechnique de Paris (Crypto Day) - Paris, France
-- Jun 2024: NTT Social Informatics Laboratories (Crypto Seminars) - Tokyo, Japan
-- May 2024: J.P. Morgan (AlgoCRYPT Seminars) - Virtual
+- Jun 2024: NTT Social Informatics Laboratories (Crypto Seminar) - Tokyo, Japan
+- May 2024: J.P. Morgan (AlgoCRYPT Seminar) - Virtual
 - May 2023: PKC 2023 (Conference) - Atlanta, USA
 - May 2023: VIASM (Crypto Seminar) - Virtual
 - Apr 2023: IRIF (Algorithm and Complexity Seminar) - Paris, France
