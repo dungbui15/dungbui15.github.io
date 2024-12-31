@@ -16,7 +16,7 @@ I spent the summer of 2023 as a research intern at [COSIC](https://www.esat.kule
 
 Before starting my PhD, I interned at [XLIM](https://www.xlim.fr/en) in the summer of 2020 under the supervision of [Duong Hieu Phan](https://www.di.ens.fr/users/phan/index.html),  and in the summer of 2021, I worked as an intern at [IRIF](https://www.irif.fr/) with [Geoffroy Couteau](https://geoffroycouteau.github.io/). 
 
-### Presentation
+### Presentations
 A list of talks where I had the opportunity to present and discuss my work.
 
 | Date        | Event/Organization                                           | Location              |
