@@ -17,17 +17,10 @@ I spent the summer of 2023 as a research intern at [COSIC](https://www.esat.kule
 Before starting my PhD, I interned at [XLIM](https://www.xlim.fr/en) in the summer of 2020 under the supervision of [Duong Hieu Phan](https://www.di.ens.fr/users/phan/index.html),  and in the summer of 2021, I worked as an intern at [IRIF](https://www.irif.fr/) with [Geoffroy Couteau](https://geoffroycouteau.github.io/). 
 
 
-
-### Professional Activities
-External Reviewer: TCC 2022, CSF 2022--2023, IEEE-TIFs 2023, EUROCRYPT 2025.
-
-Program Committee: APKC 2025, Latincrypt 2025. 
-
-
 ### Presentation
 A list of talks where I had the opportunity to present and discuss my work.
 
-| Date        | Event/Organization (Title)                                   | Location              |
+| Date        | Event/Organization                                           | Location              |
 |-------------|--------------------------------------------------------------|-----------------------|
 | Dec 2024    | Asiacrypt 2024 (Conference)                                  | Kolkata, India        |
 | Dec 2024    | CWI (Crypto Student Seminar)                                 | Amsterdam, Netherlands|
@@ -39,3 +32,9 @@ A list of talks where I had the opportunity to present and discuss my work.
 | Apr 2023    | IRIF (Algorithm and Complexity Seminar)                      | Paris, France         |
 | Jul 2022    | CWI (Crypto Student Seminar)                                 | Virtual               |
 | Apr 2022    | Journées C2 (Codage & Cryptographie) (Workshop)              | Hendaye, France       |
+
+
+### Professional Activities
+External Reviewer: TCC 2022, CSF 2022--2023, IEEE-TIFs 2024, EUROCRYPT 2025.
+
+Program Committee: APKC 2025, Latincrypt 2025. 
