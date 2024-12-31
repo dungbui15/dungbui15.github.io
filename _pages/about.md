@@ -13,9 +13,7 @@ My research interests are in various aspects of both practical and theoretical c
 
 ### Experiences
 I spent the summer of 2023 as a research intern at [COSIC](https://www.esat.kuleuven.be/cosic/) hosted by [Nigel Smart](https://nigelsmart.github.io/), and the summer of 2024 interning at [NTT Social Informatics Laboratories](https://www.rd.ntt/e/sil/), working with [Masayuki Abe](https://security-kouza.github.io/nanacov/). 
-
 Before starting my PhD, I interned at [XLIM](https://www.xlim.fr/en) in the summer of 2020 under the supervision of [Duong Hieu Phan](https://www.di.ens.fr/users/phan/index.html),  and in the summer of 2021, I worked as an intern at [IRIF](https://www.irif.fr/) with [Geoffroy Couteau](https://geoffroycouteau.github.io/). 
-
 
 ### Presentation
 A list of talks where I had the opportunity to present and discuss my work.
@@ -33,8 +31,6 @@ A list of talks where I had the opportunity to present and discuss my work.
 | Jul 2022    | CWI (Crypto Student Seminar)                                 | Virtual               |
 | Apr 2022    | Journées C2 (Codage & Cryptographie) (Workshop)              | Hendaye, France       |
 
-
 ### Professional Activities
 External Reviewer: TCC 2022, CSF 2022--2023, IEEE-TIFs 2024, EUROCRYPT 2025.
-
 Program Committee: APKC 2025, Latincrypt 2025. 
