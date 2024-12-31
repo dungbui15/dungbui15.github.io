@@ -12,11 +12,9 @@ Since October 2021, I have been a PhD student at [IRIF](https://www.irif.fr/), U
 My research interests span both practical and theoretical cryptography, including secure multiparty computation, zero-knowledge proofs, and post-quantum cryptography. For an up-to-date list of my publications, you can visit my [publications page](https://dungbui15.github.io/publications/) or check my [Google Scholar profile](https://scholar.google.com/citations?user=StGOHMUAAAAJ&hl=en&authuser=1). You can also find my CV [here](/files/PhD_CV.pdf).
 
 ### Research Experience
-- **2020 Summer**: Intern at [XLIM](https://www.xlim.fr/en) under the supervision of [Duong Hieu Phan](https://www.di.ens.fr/users/phan/index.html)
-- **2021 Summer**: Intern at [IRIF](https://www.irif.fr/) working with [Geoffroy Couteau](https://geoffroycouteau.github.io/)
-- **2023 Summer**: Research intern at [COSIC](https://www.esat.kuleuven.be/cosic/) hosted by [Nigel Smart](https://nigelsmart.github.io/)
-- **2024 Summer**: Research intern at [NTT Social Informatics Laboratories](https://www.rd.ntt/e/sil/) working with [Masayuki Abe](https://security-kouza.github.io/nanacov/)
+I spent the summer of 2023 as a research intern at [COSIC](https://www.esat.kuleuven.be/cosic/) hosted by [Nigel Smart](https://nigelsmart.github.io/), and the summer of 2024 interning at [NTT Social Informatics Laboratories](https://www.rd.ntt/e/sil/), working with [Masayuki Abe](https://security-kouza.github.io/nanacov/). 
 
+Before starting my PhD, I interned at [XLIM](https://www.xlim.fr/en) in the summer of 2020 under the supervision of [Duong Hieu Phan](https://www.di.ens.fr/users/phan/index.html),  and in the summer of 2021, I worked as an intern at [IRIF](https://www.irif.fr/) with [Geoffroy Couteau](https://geoffroycouteau.github.io/). 
 
 ### Publications
 
