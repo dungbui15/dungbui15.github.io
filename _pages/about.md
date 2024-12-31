@@ -26,11 +26,8 @@ I spent the summer of 2023 as a research intern at [COSIC](https://www.esat.kule
 
 Before starting my PhD, I interned at [XLIM](https://www.xlim.fr/en) in the summer of 2020 under the supervision of [Duong Hieu Phan](https://www.di.ens.fr/users/phan/index.html),  and in the summer of 2021, I worked as an intern at [IRIF](https://www.irif.fr/) with [Geoffroy Couteau](https://geoffroycouteau.github.io/). 
 
-
-
 ### Publications
 
-#### Publications:
 - **FOLEAGE: F4OLE-Based Multi-Party Computation for Boolean Circuits** [[ePrint]](https://eprint.iacr.org/2024/429)  
   *Maxime Bombar, Dung Bui, Geoffroy Couteau, Alain Couvreur, Clément Ducros, Sacha Servan-Schreiber*  
   In **ASIACRYPT 2024**
@@ -52,6 +49,7 @@ Before starting my PhD, I interned at [XLIM](https://www.xlim.fr/en) in the summ
   In **PKC 2023**
 
 #### Preprints:
+
 - **Critical Round in Multi-Round Proofs: Compositions and Transformation to Trapdoor Commitments** [[ePrint]](https://eprint.iacr.org/2024/1766)  
   *Masayuki Abe, David Balbás, Dung Bui, Miyako Ohkubo, Zehua Shang, Mehdi Tibouchi*
 
@@ -65,22 +63,18 @@ Before starting my PhD, I interned at [XLIM](https://www.xlim.fr/en) in the summ
   *Dung Bui, Kelong Cong, Cyprien Delpech de Saint Guilhem*
 
 ### Presentations
-
 A list of talks where I had the opportunity to present and discuss my work.
 
-| Date        | Event/Organization                                           | Location              |
-|-------------|--------------------------------------------------------------|-----------------------|
-| Dec 2024    | Asiacrypt 2024 (Conference)                                  | Kolkata, India        |
-| Dec 2024    | CWI (Crypto Student Seminar)                                 | Amsterdam, Netherlands|
-| Nov 2024    | Telecom Paris, Institut Polytechnique de Paris (Crypto Day)  | Paris, France         |
-| Jun 2024    | NTT Social Informatics Laboratories (Crypto Seminars)        | Tokyo, Japan          |
-| May 2024    | J.P. Morgan (AlgoCRYPT Seminars)                             | Virtual               |
-| May 2023    | PKC 2023 (Conference)                                       | Atlanta, USA          |
-| May 2023    | VIASM (Crypto Seminar)                                      | Virtual               |
-| Apr 2023    | IRIF (Algorithm and Complexity Seminar)                      | Paris, France         |
-| Jul 2022    | CWI (Crypto Student Seminar)                                 | Virtual               |
-| Apr 2022    | Journées C2 (Codage & Cryptographie) (Workshop)              | Hendaye, France       |
-
+- **Dec 2024**: Asiacrypt 2024 (Conference) - Kolkata, India
+- **Dec 2024**: CWI (Crypto Student Seminar) - Amsterdam, Netherlands
+- **Nov 2024**: Telecom Paris, Institut Polytechnique de Paris (Crypto Day) - Paris, France
+- **Jun 2024**: NTT Social Informatics Laboratories (Crypto Seminars) - Tokyo, Japan
+- **May 2024**: J.P. Morgan (AlgoCRYPT Seminars) - Virtual
+- **May 2023**: PKC 2023 (Conference) - Atlanta, USA
+- **May 2023**: VIASM (Crypto Seminar) - Virtual
+- **Apr 2023**: IRIF (Algorithm and Complexity Seminar) - Paris, France
+- **Jul 2022**: CWI (Crypto Student Seminar) - Virtual
+- **Apr 2022**: Journées C2 (Codage & Cryptographie) (Workshop) - Hendaye, France
 
 ### Professional Activities
 - **External Reviewer**: TCC 2022, CSF 2022–2023, IEEE-TIFs 2024, EUROCRYPT 2025.
