@@ -40,8 +40,6 @@ Before starting my PhD, I interned at [XLIM](https://www.xlim.fr/en) in the summ
   *Dung Bui, Geoffroy Couteau*  
   In **PKC 2023**
 
----
-
 #### Preprints
 
 - **Critical Round in Multi-Round Proofs: Compositions and Transformation to Trapdoor Commitments** [[ePrint]](https://eprint.iacr.org/2024/1766)  
