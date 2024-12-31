@@ -8,7 +8,12 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
+<style>
+div {
+  text-align: justify;
+  text-justify: inter-word;
+}
+</style>
 
 
 Since October 2021, I am a PhD student at [IRIF](https://www.irif.fr/), Université Paris Cité, under the supervision of [Geoffroy Couteau](https://geoffroycouteau.github.io/). In 2019 -- 2021, I got my Master's degree in Cryptology and Information Security [Cryptis program](https://www.cryptis.fr/) at Université de Limoges. <br>
