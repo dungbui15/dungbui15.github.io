@@ -24,6 +24,7 @@ I spent the summer of 2023 as a research intern at [COSIC](https://www.esat.kule
 Before starting my PhD, I interned at [XLIM](https://www.xlim.fr/en) in the summer of 2020 under the supervision of [Duong Hieu Phan](https://www.di.ens.fr/users/phan/index.html),  and in the summer of 2021, I worked as an intern at [IRIF](https://www.irif.fr/) with [Geoffroy Couteau](https://geoffroycouteau.github.io/).
 
 ## Publications
+**Conference/Journal:**
 - FOLEAGE: F4OLE-Based Multi-Party Computation for Boolean Circuits [[ePrint]](https://eprint.iacr.org/2024/429)  
   *Maxime Bombar, Dung Bui, Geoffroy Couteau, Alain Couvreur, Clément Ducros, Sacha Servan-Schreiber*  
   In ASIACRYPT 2024
@@ -40,7 +41,7 @@ Before starting my PhD, I interned at [XLIM](https://www.xlim.fr/en) in the summ
   *Dung Bui, Geoffroy Couteau*  
   In PKC 2023
 
-**Preprints**:
+**Preprints:**
 - Critical Round in Multi-Round Proofs: Compositions and Transformation to Trapdoor Commitments [[ePrint]](https://eprint.iacr.org/2024/1766)  
   *Masayuki Abe, David Balbás, Dung Bui, Miyako Ohkubo, Zehua Shang, Mehdi Tibouchi*
 - Structured-Seed Local Pseudorandom Generators and their Applications [[ePrint]](https://eprint.iacr.org/2024/1027)  
