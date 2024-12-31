@@ -9,12 +9,7 @@ redirect_from:
   - /about.html
 ---
 
-<style>
-div {
-  text-align: justify;
-  text-justify: inter-word;
-}
-</style>
+
 
 Since October 2021, I am a PhD student at [IRIF](https://www.irif.fr/), Université Paris Cité, under the supervision of [Geoffroy Couteau](https://geoffroycouteau.github.io/). In 2019 -- 2021, I got my Master's degree in Cryptology and Information Security [Cryptis program](https://www.cryptis.fr/) at Université de Limoges. <br>
 My research interests are in various aspects of both practical and theoretical cryptography, including secure multiparty computation, zero-knowledge proofs, and post-quantum cryptography. For an up-to-date list of my publications, you can check my [publication page](https://dungbui15.github.io/publications/) or my [Google scholar profile](https://scholar.google.com/citations?user=StGOHMUAAAAJ&hl=en&authuser=1). My CV can be found [here](/files/PhD_CV.pdf). 
