@@ -7,19 +7,20 @@ redirect_from:
   - /about.html
 ---
 
-Since October 2021, I am a PhD student at [IRIF](https://www.irif.fr/), Université Paris Cité, under the supervision of [Geoffroy Couteau](https://geoffroycouteau.github.io/). In 2019 -- 2021, I got my Master's degree in Cryptology and Information Security [Cryptis program](https://www.cryptis.fr/) at Université de Limoges. 
+Since October 2021, I have been a PhD student at [IRIF](https://www.irif.fr/), Université Paris Cité, under the supervision of [Geoffroy Couteau](https://geoffroycouteau.github.io/). In 2019–2021, I completed my Master's degree in Cryptology and Information Security through the [Cryptis program](https://www.cryptis.fr/) at Université de Limoges.
 
-My research interests are in various aspects of both practical and theoretical cryptography, including secure multiparty computation, zero-knowledge proofs, and post-quantum cryptography. For an up-to-date list of my publications, you can check my [publication page](https://dungbui15.github.io/publications/) or my [Google scholar profile](https://scholar.google.com/citations?user=StGOHMUAAAAJ&hl=en&authuser=1). My CV can be found [here](/files/PhD_CV.pdf).
+My research interests span both practical and theoretical cryptography, including secure multiparty computation, zero-knowledge proofs, and post-quantum cryptography. For an up-to-date list of my publications, you can visit my [publications page](https://dungbui15.github.io/publications/) or check my [Google Scholar profile](https://scholar.google.com/citations?user=StGOHMUAAAAJ&hl=en&authuser=1). You can also find my CV [here](/files/PhD_CV.pdf).
 
-### Experiences
-I spent the summer of 2023 as a research intern at [COSIC](https://www.esat.kuleuven.be/cosic/) hosted by [Nigel Smart](https://nigelsmart.github.io/), and the summer of 2024 interning at [NTT Social Informatics Laboratories](https://www.rd.ntt/e/sil/), working with [Masayuki Abe](https://security-kouza.github.io/nanacov/). 
+### Research Experience
+- **2020 Summer**: Intern at [XLIM](https://www.xlim.fr/en) under the supervision of [Duong Hieu Phan](https://www.di.ens.fr/users/phan/index.html)
+- **2021 Summer**: Intern at [IRIF](https://www.irif.fr/) working with [Geoffroy Couteau](https://geoffroycouteau.github.io/)
+- **2023 Summer**: Research intern at [COSIC](https://www.esat.kuleuven.be/cosic/) hosted by [Nigel Smart](https://nigelsmart.github.io/)
+- **2024 Summer**: Research intern at [NTT Social Informatics Laboratories](https://www.rd.ntt/e/sil/) working with [Masayuki Abe](https://security-kouza.github.io/nanacov/)
 
-Before starting my PhD, I interned at [XLIM](https://www.xlim.fr/en) in the summer of 2020 under the supervision of [Duong Hieu Phan](https://www.di.ens.fr/users/phan/index.html),  and in the summer of 2021, I worked as an intern at [IRIF](https://www.irif.fr/) with [Geoffroy Couteau](https://geoffroycouteau.github.io/). 
 
-### Publications/Preprints
+### Publications
 
 #### Publications:
-
 - **FOLEAGE: F4OLE-Based Multi-Party Computation for Boolean Circuits** [[ePrint]](https://eprint.iacr.org/2024/429)  
   *Maxime Bombar, Dung Bui, Geoffroy Couteau, Alain Couvreur, Clément Ducros, Sacha Servan-Schreiber*  
   In **ASIACRYPT 2024**
@@ -41,7 +42,6 @@ Before starting my PhD, I interned at [XLIM](https://www.xlim.fr/en) in the summ
   In **PKC 2023**
 
 #### Preprints:
-
 - **Critical Round in Multi-Round Proofs: Compositions and Transformation to Trapdoor Commitments** [[ePrint]](https://eprint.iacr.org/2024/1766)  
   *Masayuki Abe, David Balbás, Dung Bui, Miyako Ohkubo, Zehua Shang, Mehdi Tibouchi*
 
@@ -71,6 +71,5 @@ A list of talks where I had the opportunity to present and discuss my work.
 | Apr 2022    | Journées C2 (Codage & Cryptographie) (Workshop)              | Hendaye, France       |
 
 ### Professional Activities
-External Reviewer: TCC 2022, CSF 2022--2023, IEEE-TIFs 2024, EUROCRYPT 2025.
-
-Program Committee: APKC 2025, Latincrypt 2025. 
+- **External Reviewer**: TCC 2022, CSF 2022–2023, IEEE-TIFs 2024, EUROCRYPT 2025.
+- **Program Committee**: APKC 2025, Latincrypt 2025.
