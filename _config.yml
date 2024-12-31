@@ -12,7 +12,7 @@ locale                   : "Paris-FR"
 title                    : "Dung Bui"
 title_separator          : "-"
 name                     : &name "Dung"
-description              : &description "personal description"
+description              :  "PhD Student at IRIF"
 url                      : "https://dungbui15.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "https://dungbui15.github.io/"
@@ -25,7 +25,7 @@ author:
   avatar           : "profile.png"
   name             : "Dung Bui"
   avatar           : "profile.png"
-  bio              : "PhD student at IRIF"
+  bio              : #
   location         : "Paris-FR"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
