@@ -17,9 +17,9 @@ I spent the summer of 2023 as a research intern at [COSIC](https://www.esat.kule
 
 
 ## Professional Activities
-\textbf{External Reviewer:} TCC 2022, CSF 2022--2023, IEEE-TIFs 2023, EUROCRYPT 2025.
+External Reviewer: TCC 2022, CSF 2022--2023, IEEE-TIFs 2023, EUROCRYPT 2025.
 
-\textbf{Program Committee:} APKC 2025, Latincrypt 2025.
+Program Committee: APKC 2025, Latincrypt 2025. 
 
 
 ## Presentation
