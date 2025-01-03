@@ -54,7 +54,7 @@ For an up-to-date list of my publications, you can check my [Dblp profile](https
   *Dung Bui, Kelong Cong, Cyprien Delpech de Saint Guilhem*
 
 ## Presentations
-A list of talks where I had the opportunity to present and discuss my work.
+A list of talks where I had the opportunity to present and discuss my work. I have been working on Function Secret Sharing (FSS), Pseudorandom Correlation Generators (PCGs), Pseudorandom Correlation Functions (PCFs), Post-Quantum Signatures (using the MPC/VOLE-in-the-Head paradigm), Generic Multi-Party Computation (MPC), and Private Set Intersection (PSI), a specific type of MPC.
 
 - Dec 2024: Asiacrypt 2024 (Conference) - Kolkata, India
 - Dec 2024: CWI (Crypto Student Seminar) - Amsterdam, Netherlands
