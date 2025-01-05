@@ -35,11 +35,11 @@ Before starting my PhD, I interned at [XLIM](https://www.xlim.fr/en) in the summ
 
 ## News
 <div class="scrollable">
-    <p>Dec 2024: I attend the conference [Asiacrypt 2024](https://asiacrypt.iacr.org/2024/) in Kolkata, India, and present one of my accepted papers. </p>
-    <p> Dec 2024: I visit CWI (Amsterdam, Netherlands) for a week. </p>
-    <p> Aug 2024: Two of my papers got accepted at [Asiacrypt 2024](https://asiacrypt.iacr.org/2024/). </p>
-    <p> Jun-Aug 2024: I intern at [NTT Social Informatics Laboratories](https://www.rd.ntt/e/sil/), working with [Masayuki Abe](https://security-kouza.github.io/nanacov/).<p>
-</div>
+  - Dec 2024: I attend the conference [Asiacrypt 2024](https://asiacrypt.iacr.org/2024/) in Kolkata, India, and present one of my accepted papers.
+  - Dec 2024: I visit CWI (Amsterdam, Netherlands) for a week.
+  - Aug 2024: Two papers are accepted at [Asiacrypt 2024](https://asiacrypt.iacr.org/2024/). 
+  - Jun-Aug 2024: I intern at [NTT Social Informatics Laboratories](https://www.rd.ntt/e/sil/), working with [Masayuki Abe](https://security-kouza.github.io/nanacov/).
+<\div>
     
 ## Publications
 For an up-to-date list of my publications, you can check my [Dblp profile](https://dblp.uni-trier.de/pid/127/1711.html) or my [Google scholar profile](https://scholar.google.com/citations?user=StGOHMUAAAAJ&hl=en&authuser=1).
