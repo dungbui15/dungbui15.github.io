@@ -24,6 +24,10 @@ div {
       box-sizing: border-box; /* Include padding and border in the width */
       padding: 0 30px 0px;         /* Optional: Add padding for spacing */
     }
+  .scrollable ul {
+    padding: 0;       /* Remove padding around the list */
+    margin: 30px;        /* Remove default margin for the list */
+  }
   </style>
   
 
