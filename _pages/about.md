@@ -14,7 +14,15 @@ div {
   text-justify: inter-word;
 }
 </style>
-
+<style>
+    .scrollable {
+      width: 300px;          /* Set a fixed width */
+      height: 200px;         /* Set a fixed height */
+      overflow-y: scroll;    /* Enable vertical scrolling */
+      border: 1px solid #ccc; /* Optional: Add a border for visibility */
+      padding: 10px;         /* Optional: Add padding for content spacing */
+    }
+  </style>
 
 Since October 2021, I am a PhD student at [IRIF](https://www.irif.fr/), Université Paris Cité, under the supervision of [Geoffroy Couteau](https://geoffroycouteau.github.io/). In 2019 -- 2021, I got my Master's degree in Cryptology and Information Security [Cryptis program](https://www.cryptis.fr/) at Université de Limoges. <br>
 My research interests are in various aspects of both practical and theoretical cryptography, including secure multiparty computation, zero-knowledge proofs, and post-quantum cryptography. My CV can be found [here](/files/PhD_CV.pdf). 
@@ -23,6 +31,16 @@ My research interests are in various aspects of both practical and theoretical c
 I spent the summer of 2023 as a research intern at [COSIC](https://www.esat.kuleuven.be/cosic/) hosted by [Nigel Smart](https://nigelsmart.github.io/), and the summer of 2024 interning at [NTT Social Informatics Laboratories](https://www.rd.ntt/e/sil/), working with [Masayuki Abe](https://security-kouza.github.io/nanacov/). <br>
 Before starting my PhD, I interned at [XLIM](https://www.xlim.fr/en) in the summer of 2020 under the supervision of [Duong Hieu Phan](https://www.di.ens.fr/users/phan/index.html),  and in the summer of 2021, I worked as an intern at [IRIF](https://www.irif.fr/) with [Geoffroy Couteau](https://geoffroycouteau.github.io/).
 
+## News
+<div class="scrollable">
+    <p>Content goes here...</p>
+    <p>More content...</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <p>Curabitur eget leo at velit imperdiet varius.</p>
+    <p>Aliquam erat volutpat.</p>
+    <p>Donec vitae dolor nec mi finibus fermentum.</p>
+    <p>Lots of text to create a scrollbar...</p>
+    <p>End of content.</p>
 ## Publications
 For an up-to-date list of my publications, you can check my [Dblp profile](https://dblp.uni-trier.de/pid/127/1711.html) or my [Google scholar profile](https://scholar.google.com/citations?user=StGOHMUAAAAJ&hl=en&authuser=1).
 
