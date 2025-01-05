@@ -16,11 +16,13 @@ div {
 </style>
 <style>
     .scrollable {
-      width: 300px;          /* Set a fixed width */
-      height: 200px;         /* Set a fixed height */
+      width: 100%;           /* Set the width to match the page width */
+      max-width: 100%;       /* Prevent overflow beyond the page width */
+      height: 200px;         /* Fixed height for vertical scrolling */
       overflow-y: scroll;    /* Enable vertical scrolling */
       border: 1px solid #ccc; /* Optional: Add a border for visibility */
-      padding: 10px;         /* Optional: Add padding for content spacing */
+      box-sizing: border-box; /* Include padding and border in the width */
+      padding: 10px;         /* Optional: Add padding for spacing */
     }
   </style>
 
@@ -41,6 +43,7 @@ Before starting my PhD, I interned at [XLIM](https://www.xlim.fr/en) in the summ
     <p>Donec vitae dolor nec mi finibus fermentum.</p>
     <p>Lots of text to create a scrollbar...</p>
     <p>End of content.</p>
+  <div>
 ## Publications
 For an up-to-date list of my publications, you can check my [Dblp profile](https://dblp.uni-trier.de/pid/127/1711.html) or my [Google scholar profile](https://scholar.google.com/citations?user=StGOHMUAAAAJ&hl=en&authuser=1).
 
