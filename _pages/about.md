@@ -18,7 +18,7 @@ div {
     .scrollable {
       width: 100%;           /* Set the width to match the page width */
       max-width: 100%;       /* Prevent overflow beyond the page width */
-      height: 120px;         /* Fixed height for vertical scrolling */
+      height: 160px;         /* Fixed height for vertical scrolling */
       overflow-y: scroll;    /* Enable vertical scrolling */
       border: 1px solid #ccc; /* Optional: Add a border for visibility */
       box-sizing: border-box; /* Include padding and border in the width */
