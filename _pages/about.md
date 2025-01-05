@@ -20,7 +20,7 @@ div {
       max-width: 100%;       /* Prevent overflow beyond the page width */
       height: 150px;         /* Fixed height for vertical scrolling */
       overflow-y: scroll;    /* Enable vertical scrolling */
-      border: 1px solid #ccc; /* Optional: Add a border for visibility */
+      border: 1px solid transparent; /* Optional: Add a border for visibility */
       box-sizing: border-box; /* Include padding and border in the width */
       padding: 10px 20px 0px;         /* Optional: Add padding for spacing */
     }
