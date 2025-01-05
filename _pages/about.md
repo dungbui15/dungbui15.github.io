@@ -18,7 +18,7 @@ div {
     .scrollable {
       width: 100%;           /* Set the width to match the page width */
       max-width: 100%;       /* Prevent overflow beyond the page width */
-      height: 100px;         /* Fixed height for vertical scrolling */
+      height: 120px;         /* Fixed height for vertical scrolling */
       overflow-y: scroll;    /* Enable vertical scrolling */
       border: 1px solid #ccc; /* Optional: Add a border for visibility */
       box-sizing: border-box; /* Include padding and border in the width */
@@ -36,10 +36,12 @@ Before starting my PhD, I interned at [XLIM](https://www.xlim.fr/en) in the summ
 
 ## News
 <div class="scrollable">
-  - Dec 2024: I attend the conference [Asiacrypt 2024](https://asiacrypt.iacr.org/2024/) in Kolkata, India, and present one of my accepted papers.
-  - Dec 2024: I visit CWI (Amsterdam, Netherlands) for a week.
-  - Aug 2024: Two papers are accepted at [Asiacrypt 2024](https://asiacrypt.iacr.org/2024/). 
-  - Jun-Aug 2024: I intern at [NTT Social Informatics Laboratories](https://www.rd.ntt/e/sil/), working with [Masayuki Abe](https://security-kouza.github.io/nanacov/).
+  <ul>
+    <li>Dec 2024: I attend the conference <a href="https://asiacrypt.iacr.org/2024/">Asiacrypt 2024</a> in Kolkata, India, and present one of my accepted papers.</li>
+    <li>Dec 2024: I visit CWI (Amsterdam, Netherlands) for a week.</li>
+    <li>Aug 2024: Two papers are accepted at <a href="https://asiacrypt.iacr.org/2024/">Asiacrypt 2024</a>.</li>
+    <li>Jun-Aug 2024: I intern at <a href="https://www.rd.ntt/e/sil/">NTT Social Informatics Laboratories</a>, working with <a href="https://security-kouza.github.io/nanacov/">Masayuki Abe</a>.</li>
+  </ul>
 </div>
     
 ## Publications
