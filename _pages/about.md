@@ -44,6 +44,7 @@ Before starting my PhD, I interned at [XLIM](https://www.xlim.fr/en) in the summ
     <p>Lots of text to create a scrollbar...</p>
     <p>End of content.</p>
   <div>
+    
 ## Publications
 For an up-to-date list of my publications, you can check my [Dblp profile](https://dblp.uni-trier.de/pid/127/1711.html) or my [Google scholar profile](https://scholar.google.com/citations?user=StGOHMUAAAAJ&hl=en&authuser=1).
 
