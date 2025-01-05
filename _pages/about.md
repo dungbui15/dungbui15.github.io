@@ -18,13 +18,14 @@ div {
     .scrollable {
       width: 100%;           /* Set the width to match the page width */
       max-width: 100%;       /* Prevent overflow beyond the page width */
-      height: 150px;         /* Fixed height for vertical scrolling */
+      height: 100px;         /* Fixed height for vertical scrolling */
       overflow-y: scroll;    /* Enable vertical scrolling */
       border: 1px solid #ccc; /* Optional: Add a border for visibility */
       box-sizing: border-box; /* Include padding and border in the width */
       padding: 10px;         /* Optional: Add padding for spacing */
     }
   </style>
+  
 
 Since October 2021, I am a PhD student at [IRIF](https://www.irif.fr/), Université Paris Cité, under the supervision of [Geoffroy Couteau](https://geoffroycouteau.github.io/). In 2019 -- 2021, I got my Master's degree in Cryptology and Information Security [Cryptis program](https://www.cryptis.fr/) at Université de Limoges. <br>
 My research interests are in various aspects of both practical and theoretical cryptography, including secure multiparty computation, zero-knowledge proofs, and post-quantum cryptography. My CV can be found [here](/files/PhD_CV.pdf). 
@@ -39,7 +40,7 @@ Before starting my PhD, I interned at [XLIM](https://www.xlim.fr/en) in the summ
   - Dec 2024: I visit CWI (Amsterdam, Netherlands) for a week.
   - Aug 2024: Two papers are accepted at [Asiacrypt 2024](https://asiacrypt.iacr.org/2024/). 
   - Jun-Aug 2024: I intern at [NTT Social Informatics Laboratories](https://www.rd.ntt/e/sil/), working with [Masayuki Abe](https://security-kouza.github.io/nanacov/).
-<\div>
+</div>
     
 ## Publications
 For an up-to-date list of my publications, you can check my [Dblp profile](https://dblp.uni-trier.de/pid/127/1711.html) or my [Google scholar profile](https://scholar.google.com/citations?user=StGOHMUAAAAJ&hl=en&authuser=1).
