@@ -22,7 +22,7 @@ div {
       overflow-y: scroll;    /* Enable vertical scrolling */
       border: 1px solid #ccc; /* Optional: Add a border for visibility */
       box-sizing: border-box; /* Include padding and border in the width */
-      padding: 0 20px 0px;         /* Optional: Add padding for spacing */
+      padding: 10px 20px 0px;         /* Optional: Add padding for spacing */
     }
   .scrollable ul {
     margin: 0;        /* Remove default margin for the list */
