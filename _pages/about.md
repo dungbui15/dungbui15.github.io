@@ -25,7 +25,7 @@ div {
       padding: 0 20px 0px;         /* Optional: Add padding for spacing */
     }
   .scrollable ul {
-    margin: 20px;        /* Remove default margin for the list */
+    margin: 0;        /* Remove default margin for the list */
   }
   </style>
   
