@@ -18,7 +18,7 @@ div {
     .scrollable {
       width: 100%;           /* Set the width to match the page width */
       max-width: 100%;       /* Prevent overflow beyond the page width */
-      height: 100px;         /* Fixed height for vertical scrolling */
+      height: 150px;         /* Fixed height for vertical scrolling */
       overflow-y: scroll;    /* Enable vertical scrolling */
       border: 1px solid #ccc; /* Optional: Add a border for visibility */
       box-sizing: border-box; /* Include padding and border in the width */
@@ -35,14 +35,10 @@ Before starting my PhD, I interned at [XLIM](https://www.xlim.fr/en) in the summ
 
 ## News
 <div class="scrollable">
-    <p>Content goes here...</p>
-    <p>More content...</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    <p>Curabitur eget leo at velit imperdiet varius.</p>
-    <p>Aliquam erat volutpat.</p>
-    <p>Donec vitae dolor nec mi finibus fermentum.</p>
-    <p>Lots of text to create a scrollbar...</p>
-    <p>End of content.</p>
+    <p>Dec 2024: I attend the conference [Asiacrypt 2024](https://asiacrypt.iacr.org/2024/) in Kolkata, India, and present one of my accepted papers. </p>
+    <p> Dec 2024: I visit CWI (Amsterdam, Netherlands) for a week. </p>
+    <p> Aug 2024: Two of my papers got accepted at [Asiacrypt 2024](https://asiacrypt.iacr.org/2024/). </p>
+    <p> Jun-Aug 2024: I intern at [NTT Social Informatics Laboratories](https://www.rd.ntt/e/sil/), working with [Masayuki Abe](https://security-kouza.github.io/nanacov/).<p>
 </div>
     
 ## Publications
