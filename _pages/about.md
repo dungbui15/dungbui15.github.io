@@ -52,7 +52,7 @@ Before starting my PhD, I interned at [XLIM](https://www.xlim.fr/en) in the summ
 For an up-to-date list of my publications, you can check my [Dblp profile](https://dblp.uni-trier.de/pid/127/1711.html) or my [Google scholar profile](https://scholar.google.com/citations?user=StGOHMUAAAAJ&hl=en&authuser=1).
 
 **Conference/Journal:**
-- Vector Commitment and VOLEitH Signature from Multivariate Quadratic 
+- Vector Commitment and VOLEitH Signature from Multivariate Quadratic <br>
   *Dung Bui*
   In ACISP 2025
 - FOLEAGE: F4OLE-Based Multi-Party Computation for Boolean Circuits [[ePrint]](https://eprint.iacr.org/2024/429)  
