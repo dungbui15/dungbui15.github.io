@@ -53,7 +53,7 @@ For an up-to-date list of my publications, you can check my [Dblp profile](https
 
 **Conference/Journal:**
 - Vector Commitment and VOLEitH Signature from Multivariate Quadratic <br>
-  *Dung Bui*
+  *Dung Bui* <br>
   In ACISP 2025
 - FOLEAGE: F4OLE-Based Multi-Party Computation for Boolean Circuits [[ePrint]](https://eprint.iacr.org/2024/429)  
   *Maxime Bombar, Dung Bui, Geoffroy Couteau, Alain Couvreur, Clément Ducros, Sacha Servan-Schreiber*  
