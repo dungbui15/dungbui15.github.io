@@ -40,6 +40,7 @@ Before starting my PhD, I interned at [XLIM](https://www.xlim.fr/en) in the summ
 ## News
 <div class="scrollable">
   <ul>
+    <li> Jan 2025: My single-author paper is accepted at ACISP 2025. </li>
     <li>Dec 2024: I attend the conference <a href="https://asiacrypt.iacr.org/2024/">Asiacrypt 2024</a> (Kolkata, India), and present <a href="https://eprint.iacr.org/2024/252">one</a> of my accepted papers.</li>
     <li>Dec 2024: I visit CWI (Amsterdam, Netherlands) for a week.</li>
     <li>Aug 2024: Two papers are accepted at <a href="https://asiacrypt.iacr.org/2024/">Asiacrypt 2024</a>.</li>
@@ -51,6 +52,9 @@ Before starting my PhD, I interned at [XLIM](https://www.xlim.fr/en) in the summ
 For an up-to-date list of my publications, you can check my [Dblp profile](https://dblp.uni-trier.de/pid/127/1711.html) or my [Google scholar profile](https://scholar.google.com/citations?user=StGOHMUAAAAJ&hl=en&authuser=1).
 
 **Conference/Journal:**
+- Vector Commitment and VOLEitH Signature from Multivariate Quadratic 
+  *Dung Bui*
+  In ACISP 2025
 - FOLEAGE: F4OLE-Based Multi-Party Computation for Boolean Circuits [[ePrint]](https://eprint.iacr.org/2024/429)  
   *Maxime Bombar, Dung Bui, Geoffroy Couteau, Alain Couvreur, Clément Ducros, Sacha Servan-Schreiber*  
   In ASIACRYPT 2024
@@ -72,8 +76,6 @@ For an up-to-date list of my publications, you can check my [Dblp profile](https
   *Masayuki Abe, David Balbás, Dung Bui, Miyako Ohkubo, Zehua Shang, Mehdi Tibouchi*
 - Structured-Seed Local Pseudorandom Generators and their Applications [[ePrint]](https://eprint.iacr.org/2024/1027)  
   *Dung Bui, Geoffroy Couteau, Nikolas Melissaris*
-- Shorter VOLEitH Signature from Multivariate Quadratic [[ePrint]](https://eprint.iacr.org/2024/465)  
-  *Dung Bui*
 - Improved All-but-One Vector Commitment with Applications to Post-Quantum Signatures [[ePrint]](https://eprint.iacr.org/2024/097)  
   *Dung Bui, Kelong Cong, Cyprien Delpech de Saint Guilhem*
 
