@@ -40,7 +40,7 @@ Before starting my PhD, I interned at [XLIM](https://www.xlim.fr/en) in the summ
 ## News
 <div class="scrollable">
   <ul>
-    <li> Jan 2025: My single-author paper is accepted at ACISP 2025. </li>
+    <li>Jan 2025: My single-author paper is accepted at ACISP 2025.</li>
     <li>Dec 2024: I attend the conference <a href="https://asiacrypt.iacr.org/2024/">Asiacrypt 2024</a> (Kolkata, India), and present <a href="https://eprint.iacr.org/2024/252">one</a> of my accepted papers.</li>
     <li>Dec 2024: I visit CWI (Amsterdam, Netherlands) for a week.</li>
     <li>Aug 2024: Two papers are accepted at <a href="https://asiacrypt.iacr.org/2024/">Asiacrypt 2024</a>.</li>
