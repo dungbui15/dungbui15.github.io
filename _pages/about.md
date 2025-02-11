@@ -40,7 +40,7 @@ Before starting my PhD, I interned at [XLIM](https://www.xlim.fr/en) in the summ
 ## News
 <div class="scrollable">
   <ul>
-    <li>Jan 2025: My paper is (conditionally) accepted at <a href="https://uow-ic2.github.io/acisp2025/cfp.html">ACISP 2025</a>.</li>
+    <li>Jan 2025: My paper is accepted at <a href="https://uow-ic2.github.io/acisp2025/cfp.html">ACISP 2025</a>.</li>
     <li>Dec 2024: I attend the conference <a href="https://asiacrypt.iacr.org/2024/">Asiacrypt 2024</a> (Kolkata, India), and present <a href="https://eprint.iacr.org/2024/252">one</a> of my accepted papers.</li>
     <li>Dec 2024: I visit CWI (Amsterdam, Netherlands) for a week.</li>
     <li>Aug 2024: Two papers are accepted at <a href="https://asiacrypt.iacr.org/2024/">Asiacrypt 2024</a>.</li>
@@ -95,5 +95,5 @@ A list of talks where I had the opportunity to present and discuss my work. I ha
 - Apr 2022: Journées C2 (Codage & Cryptographie) (Workshop) - Hendaye, France
 
 ## Professional Activities
-- External Reviewer: TCC 2022, CSF 2022–2023, IEEE-TIFs 2024, EUROCRYPT 2025.
+- External Reviewer: TCC 2022, CSF 2022–2023, IEEE-TIFs 2024, EUROCRYPT 2025, ACNS 2025.
 - Program Committee: APKC 2025, LATINCRYPT 2025.
