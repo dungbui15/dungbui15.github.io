@@ -41,7 +41,7 @@ Before starting my PhD, I interned at [XLIM](https://www.xlim.fr/en) in the summ
 <div class="scrollable">
   <ul>
     <li>Jan 2025: My paper is accepted at <a href="https://uow-ic2.github.io/acisp2025/cfp.html">ACISP 2025</a>.</li>
-    <li>Dec 2024: I attend the conference <a href="https://asiacrypt.iacr.org/2024/">Asiacrypt 2024</a> (Kolkata, India), and present <a href="https://eprint.iacr.org/2024/252">one</a> of my accepted papers.</li>
+    <li>Dec 2024: I attend <a href="https://asiacrypt.iacr.org/2024/">Asiacrypt 2024</a> (Kolkata, India), and present <a href="https://eprint.iacr.org/2024/252">one</a> of my accepted papers.</li>
     <li>Dec 2024: I visit CWI (Amsterdam, Netherlands) for a week.</li>
     <li>Aug 2024: Two papers are accepted at <a href="https://asiacrypt.iacr.org/2024/">Asiacrypt 2024</a>.</li>
     <li>Jun-Aug 2024: I intern at <a href="https://www.rd.ntt/e/sil/">NTT Social Informatics Laboratories</a>, working with <a href="https://security-kouza.github.io/nanacov/">Masayuki Abe</a>.</li>
