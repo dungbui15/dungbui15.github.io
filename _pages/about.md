@@ -30,7 +30,7 @@ div {
   </style>
   
 
-Since October 2021, I am a PhD student at [IRIF](https://www.irif.fr/), Université Paris Cité, under the supervision of [Geoffroy Couteau](https://geoffroycouteau.github.io/). In 2019 -- 2021, I got my Master's degree in Cryptology and Information Security [Cryptis program](https://www.cryptis.fr/) at Université de Limoges. <br>
+I completed my PhD in March 2025 at [IRIF](https://www.irif.fr/), Université Paris Cité, under the supervision of [Geoffroy Couteau](https://geoffroycouteau.github.io/), after starting in October 2021. In 2019 -- 2021, I got my Master's degree in Cryptology and Information Security [Cryptis program](https://www.cryptis.fr/) at Université de Limoges. <br>
 My research interests are in various aspects of both practical and theoretical cryptography, including secure multiparty computation, zero-knowledge proofs, and post-quantum cryptography. My CV can be found [here](/files/PhD_CV.pdf). 
 
 ## Research Experience
@@ -53,6 +53,9 @@ Before starting my PhD, I interned at [XLIM](https://www.xlim.fr/en) in the summ
 For an up-to-date list of my publications, you can check my [Dblp profile](https://dblp.uni-trier.de/pid/127/1711.html) or my [Google scholar profile](https://scholar.google.com/citations?user=StGOHMUAAAAJ&hl=en&authuser=1).
 
 **Conference/Journal:**
+- Improved All-but-One Vector Commitment with Applications to Post-Quantum Signatures [[ePrint]](https://eprint.iacr.org/2024/097)  
+  *Dung Bui, Kelong Cong, Cyprien Delpech de Saint Guilhem* <br>
+  In ACISP 2025
 - Efficient Multi-instance Vector Commitment and Application to Post-quantum Signatures <br>
   *Dung Bui* <br>
   In ACISP 2025
@@ -77,8 +80,7 @@ For an up-to-date list of my publications, you can check my [Dblp profile](https
   *Masayuki Abe, David Balbás, Dung Bui, Miyako Ohkubo, Zehua Shang, Mehdi Tibouchi*
 - Structured-Seed Local Pseudorandom Generators and their Applications [[ePrint]](https://eprint.iacr.org/2024/1027)  
   *Dung Bui, Geoffroy Couteau, Nikolas Melissaris*
-- Improved All-but-One Vector Commitment with Applications to Post-Quantum Signatures [[ePrint]](https://eprint.iacr.org/2024/097)  
-  *Dung Bui, Kelong Cong, Cyprien Delpech de Saint Guilhem*
+
 
 ## Presentations
 A list of talks where I had the opportunity to present and discuss my work. I have been working on function secret sharing (FSS), pseudorandom correlation generators (PCGs), pseudorandom correlation functions (PCFs), post-quantum signatures (using the MPC/VOLE-in-the-Head paradigm), generic multi-party computation (MPC), and private set intersection (PSI), a specific type of MPC.
