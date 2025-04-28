@@ -98,4 +98,5 @@ A list of talks where I had the opportunity to present and discuss my work. I ha
 - Apr 2022: Journées C2 (Codage & Cryptographie) (Workshop) - Hendaye, France
 
 ## Professional Activities
-  Program Committee: APKC 2025, LATINCRYPT 2025.
+External Reviewer: TCC 2022, CSF 2022–2023, IEEE-TIFs 2024, EUROCRYPT 2025, ACNS 2025, CRYPTO 2025 (x3), PriCrypt2025, CCS 2025.<br>
+Program Committee: APKC 2025, LATINCRYPT 2025.
