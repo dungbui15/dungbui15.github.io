@@ -87,6 +87,8 @@ For an up-to-date list of my publications, you can check my [Dblp profile](https
 ## Presentations
 A list of talks where I had the opportunity to present and discuss my work. I have been working on function secret sharing (FSS), pseudorandom correlation generators (PCGs), pseudorandom correlation functions (PCFs), post-quantum signatures (using the MPC/VOLE-in-the-Head paradigm), generic multi-party computation (MPC), and private set intersection (PSI), a specific type of MPC.
 
+- Apr 2025: VIASM (Crypto Seminar) - Virtual
+- Mar 2025: LIP6, Sorbonne Université (ALMASTY seminar) - Paris, France
 - Dec 2024: Asiacrypt 2024 (Conference) - Kolkata, India
 - Dec 2024: CWI (Crypto Student Seminar) - Amsterdam, Netherlands
 - Nov 2024: Telecom Paris, Institut Polytechnique de Paris (Crypto Day) - Paris, France
@@ -100,5 +102,5 @@ A list of talks where I had the opportunity to present and discuss my work. I ha
 - Apr 2022: Journées C2 (Codage & Cryptographie) (Workshop) - Hendaye, France
 
 ## Professional Activities
-External Reviewer: TCC 2022, CSF 2022–2023, IEEE-TIFs 2024, EUROCRYPT 2025, ACNS 2025, CRYPTO 2025 (x3), PriCrypt 2025, CCS 2025.<br>
+External Reviewer: TCC 2022, CSF 2022–2023, IEEE-TIFs 2024, EUROCRYPT 2025, ACNS 2025, CRYPTO 2025 (x3), PriCrypt 2025, CCS 2025, ASIACRYPT 2025.<br>
 Program Committee: APKC 2025, LATINCRYPT 2025.
