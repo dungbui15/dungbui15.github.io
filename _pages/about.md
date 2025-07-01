@@ -85,6 +85,7 @@ For an up-to-date list of my publications, you can check my [Dblp profile](https
 - Critical Round in Multi-Round Proofs: Compositions and Transformation to Trapdoor Commitments [[ePrint]](https://eprint.iacr.org/2024/1766)  
   *Masayuki Abe, David Balbás, Dung Bui, Miyako Ohkubo, Zehua Shang, Mehdi Tibouchi*
 - New Framework for Structure-Aware PSI From Distributed Function Secret Sharing [[ePrint]](https://eprint.iacr.org/2025/907)
+  
   *Dung Bui, Gayathri Garimella, Peihan Miao, Phuoc Van Long Pham*
 
 
