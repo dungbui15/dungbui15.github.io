@@ -41,7 +41,8 @@ Before starting my PhD, I interned at [XLIM](https://www.xlim.fr/en) in the summ
 ## News
 <div class="scrollable">
   <ul>
-    <li>April 2025: I'm going to be a postdoc at LIP6 (Sorbonne Université) hosted by <a href="https://abgrilo.github.io/">Alex B.Grilo</a>.</li>
+    <li>Jul 2025: One paper is accepted at RANDOM 2025.</li>
+    <li>Apr 2025: I'm going to be a postdoc at LIP6 (Sorbonne Université) hosted by <a href="https://abgrilo.github.io/">Alex B.Grilo</a>.</li>
     <li>Mar 2025: I graduated, my PhD thesis can be found <a href="files/thesis.pdf">here</a>. </li>
     <li>Jan 2025: My papers are accepted at <a href="https://uow-ic2.github.io/acisp2025/cfp.html">ACISP 2025</a>.</li>
     <li>Dec 2024: I attend <a href="https://asiacrypt.iacr.org/2024/">Asiacrypt 2024</a> (Kolkata, India), and present <a href="https://eprint.iacr.org/2024/252">one</a> of my accepted papers.</li>
@@ -55,6 +56,9 @@ Before starting my PhD, I interned at [XLIM](https://www.xlim.fr/en) in the summ
 For an up-to-date list of my publications, you can check my [Dblp profile](https://dblp.uni-trier.de/pid/127/1711.html) or my [Google scholar profile](https://scholar.google.com/citations?user=StGOHMUAAAAJ&hl=en&authuser=1).
 
 **Conference/Journal:**
+- Structured-Seed Local Pseudorandom Generators and their Applications [[ePrint]](https://eprint.iacr.org/2024/1027)  
+  *Dung Bui, Geoffroy Couteau, Nikolas Melissaris* <br>
+  In RANDOM 2025
 - Improved All-but-One Vector Commitment with Applications to Post-Quantum Signatures [[ePrint]](https://eprint.iacr.org/2024/097)  
   *Dung Bui, Kelong Cong, Cyprien Delpech de Saint Guilhem* <br>
   In ACISP 2025
@@ -80,8 +84,9 @@ For an up-to-date list of my publications, you can check my [Dblp profile](https
 **Preprints:**
 - Critical Round in Multi-Round Proofs: Compositions and Transformation to Trapdoor Commitments [[ePrint]](https://eprint.iacr.org/2024/1766)  
   *Masayuki Abe, David Balbás, Dung Bui, Miyako Ohkubo, Zehua Shang, Mehdi Tibouchi*
-- Structured-Seed Local Pseudorandom Generators and their Applications [[ePrint]](https://eprint.iacr.org/2024/1027)  
-  *Dung Bui, Geoffroy Couteau, Nikolas Melissaris*
+- New Framework for Structure-Aware PSI From Distributed Function Secret Sharing [[ePrint]](https://eprint.iacr.org/2025/907)
+  *Dung Bui, Gayathri Garimella, Peihan Miao, Phuoc Van Long Pham*
+
 
 
 ## Presentations
@@ -104,3 +109,5 @@ A list of talks where I had the opportunity to present and discuss my work. I ha
 ## Professional Activities
 External Reviewer: TCC 2022, CSF 2022–2023, IEEE-TIFs 2024, EUROCRYPT 2025, ACNS 2025, CRYPTO 2025 (x3), PriCrypt 2025, CCS 2025, ASIACRYPT 2025.<br>
 Program Committee: APKC 2025, LATINCRYPT 2025.
+
+<p>Last updated on {{ site.time | date: "%B %d, %Y" }}</p>
