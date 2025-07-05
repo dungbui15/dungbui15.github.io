@@ -57,7 +57,7 @@ For an up-to-date list of my publications, you can check my [Dblp profile](https
 
 **Conference/Journal:**
 - Structured-Seed Local Pseudorandom Generators and their Applications [[ePrint]](https://eprint.iacr.org/2024/1027)  
-  *Dung Bui, Geoffroy Couteau, Nikolas Melissaris* <br>
+  *Benny Applebaum, Dung Bui, Geoffroy Couteau, Nikolas Melissaris* <br>
   In RANDOM 2025
 - Improved All-but-One Vector Commitment with Applications to Post-Quantum Signatures [[ePrint]](https://eprint.iacr.org/2024/097)  
   *Dung Bui, Kelong Cong, Cyprien Delpech de Saint Guilhem* <br>
