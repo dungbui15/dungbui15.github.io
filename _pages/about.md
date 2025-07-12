@@ -44,7 +44,7 @@ Before starting my PhD, I interned at [XLIM](https://www.xlim.fr/en) in the summ
 ## News
 <div class="scrollable">
   <ul>
-    <li>Jul 2025: One paper is accepted at RANDOM 2025.</li>
+    <li>Jul 2025: Two papers are accepted at RANDOM 2025 and CANS 2025.</li>
     <li>Apr 2025: I'm going to be a postdoc at LIP6 (Sorbonne Université) hosted by <a href="https://abgrilo.github.io/">Alex B.Grilo</a>.</li>
     <li>Mar 2025: I graduated, my PhD thesis can be found <a href="files/thesis.pdf">here</a>. </li>
     <li>Jan 2025: My papers are accepted at <a href="https://uow-ic2.github.io/acisp2025/cfp.html">ACISP 2025</a>.</li>
@@ -60,7 +60,7 @@ For an up-to-date list of my publications, you can check my [Dblp profile](https
 
 **Conference/Journal:**
 - Efficient Fuzzy Labeled PSI from Vector Ring-OLE [ePrint]
-  * Dung Bui, Kelong Cong* <br>
+  *Dung Bui, Kelong Cong* <br>
   In CANS 2025
 - Structured-Seed Local Pseudorandom Generators and their Applications [[ePrint]](https://eprint.iacr.org/2024/1027)  
   *Benny Applebaum, Dung Bui, Geoffroy Couteau, Nikolas Melissaris* <br>
