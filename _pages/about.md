@@ -59,7 +59,7 @@ Before starting my PhD, I interned at [XLIM](https://www.xlim.fr/en) in the summ
 For an up-to-date list of my publications, you can check my [Dblp profile](https://dblp.uni-trier.de/pid/127/1711.html) or my [Google scholar profile](https://scholar.google.com/citations?user=StGOHMUAAAAJ&hl=en&authuser=1).
 
 **Conference/Journal:**
-- Efficient Fuzzy Labeled PSI from Vector Ring-OLE [ePrint]
+- Efficient Fuzzy Labeled PSI from Vector Ring-OLE [ePrint] <br>
   *Dung Bui, Kelong Cong* <br>
   In CANS 2025
 - Structured-Seed Local Pseudorandom Generators and their Applications [[ePrint]](https://eprint.iacr.org/2024/1027)  
