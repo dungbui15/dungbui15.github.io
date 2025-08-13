@@ -44,7 +44,8 @@ Before starting my PhD, I interned at [XLIM](https://www.xlim.fr/en) in the summ
 ## News
 <div class="scrollable">
   <ul>
-    <li>Jul 2025: Two papers are accepted at RANDOM 2025 and CANS 2025.</li>
+    <li>Aug 2025: One paper is accepted at ASIACRYPT 2025.</li>
+    <li>Jul 2025: Two papers are accepted at RANDOM 2025 and CANS 2025, and I attend ACISP 2025.</li>
     <li>Apr 2025: I'm going to be a postdoc at LIP6 (Sorbonne Université) hosted by <a href="https://abgrilo.github.io/">Alex B.Grilo</a>.</li>
     <li>Mar 2025: I graduated, my PhD thesis can be found <a href="files/thesis.pdf">here</a>. </li>
     <li>Jan 2025: My papers are accepted at <a href="https://uow-ic2.github.io/acisp2025/cfp.html">ACISP 2025</a>.</li>
@@ -59,7 +60,10 @@ Before starting my PhD, I interned at [XLIM](https://www.xlim.fr/en) in the summ
 For an up-to-date list of my publications, you can check my [Dblp profile](https://dblp.uni-trier.de/pid/127/1711.html) or my [Google scholar profile](https://scholar.google.com/citations?user=StGOHMUAAAAJ&hl=en&authuser=1).
 
 **Conference/Journal:**
-- Efficient Fuzzy Labeled PSI from Vector Ring-OLE [ePrint] <br>
+- New Framework for Structure-Aware PSI From Distributed Function Secret Sharing [[ePrint]](https://eprint.iacr.org/2025/907)<br>
+  *Dung Bui, Gayathri Garimella, Peihan Miao, Phuoc Van Long Pham* <br>
+  In ASIACRYPT 2025
+- Efficient Fuzzy Labeled PSI from Vector Ring-OLE [[ePrint]](https://eprint.iacr.org/2025/1470) <br>
   *Dung Bui, Kelong Cong* <br>
   In CANS 2025
 - Structured-Seed Local Pseudorandom Generators and their Applications [[ePrint]](https://eprint.iacr.org/2024/1027)  
@@ -90,14 +94,13 @@ For an up-to-date list of my publications, you can check my [Dblp profile](https
 **Preprints:**
 - Critical Round in Multi-Round Proofs: Compositions and Transformation to Trapdoor Commitments [[ePrint]](https://eprint.iacr.org/2024/1766)  
   *Masayuki Abe, David Balbás, Dung Bui, Miyako Ohkubo, Zehua Shang, Mehdi Tibouchi*
-- New Framework for Structure-Aware PSI From Distributed Function Secret Sharing [[ePrint]](https://eprint.iacr.org/2025/907)<br>
-  *Dung Bui, Gayathri Garimella, Peihan Miao, Phuoc Van Long Pham*
 
 
 
 ## Presentations
 A list of talks where I had the opportunity to present and discuss my work. I have been working on function secret sharing (FSS), pseudorandom correlation generators (PCGs), pseudorandom correlation functions (PCFs), post-quantum signatures (using the MPC/VOLE-in-the-Head paradigm), generic multi-party computation (MPC), and private set intersection (PSI), a specific type of MPC.
 
+- Jul 2025: ACISP 2025 (Conference) - Wollongong, Australia
 - Apr 2025: VIASM (Crypto Seminar) - Virtual
 - Mar 2025: LIP6, Sorbonne Université (ALMASTY seminar) - Paris, France
 - Dec 2024: Asiacrypt 2024 (Conference) - Kolkata, India
