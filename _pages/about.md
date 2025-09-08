@@ -29,7 +29,7 @@ div {
   }
   </style>
   
-I am a postdoctoral researcher at [QI](https://qi.lip6.fr/fr/team/) team, LIP6, Sorbonne Université, hosted by <a href="https://abgrilo.github.io/">Alex B.Grilo</a>.<br>
+I am a postdoctoral researcher at [EPITA](https://www.epita.fr/campus/ecole-ingenieur-informatique-paris-kb/) and [QI](https://qi.lip6.fr/fr/team/) team, LIP6, Sorbonne Université.<br>
 
 I completed my PhD at [IRIF](https://www.irif.fr/), Université Paris Cité, under the supervision of [Geoffroy Couteau](https://geoffroycouteau.github.io/). Before that, I got my Master's degree (2019 -- 2021) in Cryptology and Information Security [Cryptis program](https://www.cryptis.fr/) at Université de Limoges. <br>
 My research interests are in various aspects of both practical and theoretical cryptography, including secure multiparty computation, zero-knowledge proofs, and post-quantum cryptography. You can find my PhD thesis <a href="files/thesis.pdf">here</a> and my CV <a href="files/CV.pdf">here</a>.
