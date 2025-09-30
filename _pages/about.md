@@ -3,7 +3,7 @@ permalink: /
 title: "About"
 author_profile: true
 classes: wide
-excerpt: "I am a PhD at IRIF, Université de Paris."
+excerpt: "I am a postdoctoral researcher in cryptography."
 redirect_from: 
   - /about/
   - /about.html
