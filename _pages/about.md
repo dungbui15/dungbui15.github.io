@@ -45,7 +45,7 @@ Before starting my PhD, I interned at [XLIM](https://www.xlim.fr/en) in the summ
 <div class="scrollable">
   <ul>
     <li>Nov 2025: I visit <a href="https://www.rd.ntt/e/sil/">NTT Social Informatics Laboratories</a> for a week.</li>
-    <li>Nov 2025: I attend <a href="https://cy2sec.comm.eng.osaka-u.ac.jp/miyaji-lab/event/cans2025/">CANS</a>, [our paper](https://eprint.iacr.org/2025/1470) got the best paper award.</li>
+    <li>Nov 2025: I attend <a href="https://cy2sec.comm.eng.osaka-u.ac.jp/miyaji-lab/event/cans2025/">CANS</a>, <a href="https://eprint.iacr.org/2025/1470">our paper</a> got the best paper award.</li>
     <li>Aug 2025: One paper is accepted at ASIACRYPT 2025.</li>
     <li>Jul 2025: Two papers are accepted at RANDOM 2025 and CANS 2025, and I attend ACISP 2025.</li>
     <li>Apr 2025: I'm going to be a postdoc at LIP6 (Sorbonne Université) hosted by <a href="https://abgrilo.github.io/">Alex B.Grilo</a>.</li>
