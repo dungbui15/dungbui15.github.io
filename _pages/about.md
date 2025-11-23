@@ -35,7 +35,7 @@ I completed my PhD at [IRIF](https://www.irif.fr/), Université Paris Cité, und
 My research interests are in various aspects of both practical and theoretical cryptography, including secure multiparty computation, zero-knowledge proofs, and post-quantum cryptography. You can find my PhD thesis <a href="files/thesis.pdf">here</a> and my CV <a href="files/CV.pdf">here</a>.
 
 ## Research Experience
-From summer 2025, I work as a postdoc with <a href="https://www.lre.epita.fr/perso/ludovic-perret/"> Ludovic Perret</a>, <a href="https://abgrilo.github.io/">Alex B.Grilo</a>, <a href="https://largo.lip6.fr/~ediamanti/"> Eleni Diamanti</a>.<br>
+From summer 2025, I work as a postdoc with <a href="https://scholar.google.com/citations?user=cDvpjhcAAAAJ&hl=en"> Eleni Diamanti</a>, <a href="https://abgrilo.github.io/">Alex B.Grilo</a>, <a href="https://www.lre.epita.fr/perso/ludovic-perret/"> Ludovic Perret</a>.<br>
 
 I spent the summer of 2023 as a research intern at [COSIC](https://www.esat.kuleuven.be/cosic/) hosted by [Nigel Smart](https://nigelsmart.github.io/), and the summer of 2024 interning at [NTT Social Informatics Laboratories](https://www.rd.ntt/e/sil/), working with [Masayuki Abe](https://security-kouza.github.io/nanacov/). <br>
 
@@ -44,6 +44,8 @@ Before starting my PhD, I interned at [XLIM](https://www.xlim.fr/en) in the summ
 ## News
 <div class="scrollable">
   <ul>
+    <li>Nov 2025: I visit <a href="https://www.rd.ntt/e/sil/">NTT Social Informatics Laboratories</a> for a week.</li>
+    <li>Nov 2025: I attend <a href="https://cy2sec.comm.eng.osaka-u.ac.jp/miyaji-lab/event/cans2025/">CANS</a>, [our paper](https://eprint.iacr.org/2025/1470) got the best paper award.</li>
     <li>Aug 2025: One paper is accepted at ASIACRYPT 2025.</li>
     <li>Jul 2025: Two papers are accepted at RANDOM 2025 and CANS 2025, and I attend ACISP 2025.</li>
     <li>Apr 2025: I'm going to be a postdoc at LIP6 (Sorbonne Université) hosted by <a href="https://abgrilo.github.io/">Alex B.Grilo</a>.</li>
@@ -65,7 +67,7 @@ For an up-to-date list of my publications, you can check my [Dblp profile](https
   In ASIACRYPT 2025
 - Efficient Fuzzy Labeled PSI from Vector Ring-OLE [[ePrint]](https://eprint.iacr.org/2025/1470) <br>
   *Dung Bui, Kelong Cong* <br>
-  In CANS 2025
+  In CANS 2025 (*best paper award*)
 - Structured-Seed Local Pseudorandom Generators and their Applications [[ePrint]](https://eprint.iacr.org/2024/1027)  
   *Benny Applebaum, Dung Bui, Geoffroy Couteau, Nikolas Melissaris* <br>
   In RANDOM 2025
@@ -93,13 +95,14 @@ For an up-to-date list of my publications, you can check my [Dblp profile](https
 
 **Preprints:**
 - Critical Round in Multi-Round Proofs: Compositions and Transformation to Trapdoor Commitments [[ePrint]](https://eprint.iacr.org/2024/1766)  
-  *Masayuki Abe, David Balbás, Dung Bui, Miyako Ohkubo, Zehua Shang, Mehdi Tibouchi*
+  *Masayuki Abe, David Balbás, Dung Bui, Miyako Ohkubo, Zehua Shang,Akira Takahashi, Mehdi Tibouchi*
 
 
 
 ## Presentations
 A list of talks where I had the opportunity to present and discuss my work. I have been working on function secret sharing (FSS), pseudorandom correlation generators (PCGs), pseudorandom correlation functions (PCFs), post-quantum signatures (using the MPC/VOLE-in-the-Head paradigm), generic multi-party computation (MPC), and private set intersection (PSI), a specific type of MPC.
 
+- Nov 2025: CANS 2025 (Conference) - Osaka, France
 - Sep 2025: Florida Atlantic University (Crypto Café) - Virtual
 - Jul 2025: ACISP 2025 (Conference) - Wollongong, Australia
 - Apr 2025: VIASM (Crypto Seminar) - Virtual
@@ -117,7 +120,7 @@ A list of talks where I had the opportunity to present and discuss my work. I ha
 - Apr 2022: Journées C2 (Codage & Cryptographie) (Workshop) - Hendaye, France
 
 ## Professional Activities
-External Reviewer: TCC 2022, CSF 2022–2023, IEEE-TIFs 2024, EUROCRYPT 2025, ACNS 2025, CRYPTO 2025 (x3), PriCrypt 2025, CCS 2025, ASIACRYPT 2025.<br>
+External Reviewer: TCC 2022, CSF 2022–2023, IEEE-TIFs 2024, EUROCRYPT 2025, ACNS 2025, CRYPTO 2025 (x3), PriCrypt 2025, CCS 2025, ASIACRYPT 2025, EUROCRYPT 2026 (x2), PKC 2026.<br>
 Program Committee: APKC 2025, LATINCRYPT 2025.
 
 <p> *Last updated on {{ site.time | date: "%B %d, %Y" }}* </p>
