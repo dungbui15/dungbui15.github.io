@@ -102,7 +102,7 @@ For an up-to-date list of my publications, you can check my [Dblp profile](https
 ## Presentations
 A list of talks where I had the opportunity to present and discuss my work. I have been working on function secret sharing (FSS), pseudorandom correlation generators (PCGs), pseudorandom correlation functions (PCFs), post-quantum signatures (using the MPC/VOLE-in-the-Head paradigm), generic multi-party computation (MPC), and private set intersection (PSI), a specific type of MPC.
 
-- Nov 2025: CANS 2025 (Conference) - Osaka, France
+- Nov 2025: CANS 2025 (Conference) - Osaka, Japan
 - Sep 2025: Florida Atlantic University (Crypto Café) - Virtual
 - Jul 2025: ACISP 2025 (Conference) - Wollongong, Australia
 - Apr 2025: VIASM (Crypto Seminar) - Virtual
