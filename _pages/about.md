@@ -121,6 +121,6 @@ A list of talks where I had the opportunity to present and discuss my work. I ha
 
 ## Professional Activities
 External Reviewer: TCC 2022, CSF 2022–2023, IEEE-TIFs 2024, EUROCRYPT 2025, ACNS 2025, CRYPTO 2025 (x3), PriCrypt 2025, CCS 2025, ASIACRYPT 2025, EUROCRYPT 2026 (x2), PKC 2026.<br>
-Program Committee: APKC 2025, LATINCRYPT 2025.
+Program Committee: APKC 2025, LATINCRYPT 2025, APKC 2026.
 
 <p> *Last updated on {{ site.time | date: "%B %d, %Y" }}* </p>
