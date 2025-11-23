@@ -67,7 +67,7 @@ For an up-to-date list of my publications, you can check my [Dblp profile](https
   In ASIACRYPT 2025
 - Efficient Fuzzy Labeled PSI from Vector Ring-OLE [[ePrint]](https://eprint.iacr.org/2025/1470) <br>
   *Dung Bui, Kelong Cong* <br>
-  In CANS 2025 (*best paper award*)
+  In CANS 2025 <b>(best paper award)</b>
 - Structured-Seed Local Pseudorandom Generators and their Applications [[ePrint]](https://eprint.iacr.org/2024/1027)  
   *Benny Applebaum, Dung Bui, Geoffroy Couteau, Nikolas Melissaris* <br>
   In RANDOM 2025
@@ -95,7 +95,7 @@ For an up-to-date list of my publications, you can check my [Dblp profile](https
 
 **Preprints:**
 - Critical Round in Multi-Round Proofs: Compositions and Transformation to Trapdoor Commitments [[ePrint]](https://eprint.iacr.org/2024/1766)  
-  *Masayuki Abe, David Balbás, Dung Bui, Miyako Ohkubo, Zehua Shang,Akira Takahashi, Mehdi Tibouchi*
+  *Masayuki Abe, David Balbás, Dung Bui, Miyako Ohkubo, Zehua Shang, Akira Takahashi, Mehdi Tibouchi*
 
 
 
