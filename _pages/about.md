@@ -29,7 +29,7 @@ div {
   }
   </style>
   
-I am a postdoctoral researcher at [EPITA](https://www.epita.fr/campus/ecole-ingenieur-informatique-paris-kb/) and [QI](https://qi.lip6.fr/fr/team/) team, LIP6, Sorbonne Université.<br>
+I am a postdoctoral researcher at [EPITA](https://www.epita.fr/campus/ecole-ingenieur-informatique-paris-kb/) and [QI](https://qi.lip6.fr/fr/team/) team, CNRS, LIP6, Sorbonne Université.<br>
 
 I completed my PhD at [IRIF](https://www.irif.fr/), Université Paris Cité, under the supervision of [Geoffroy Couteau](https://geoffroycouteau.github.io/). Before that, I got my Master's degree (2019 -- 2021) in Cryptology and Information Security [Cryptis program](https://www.cryptis.fr/) at Université de Limoges. <br>
 My research interests are in various aspects of both practical and theoretical cryptography, including secure multiparty computation, zero-knowledge proofs, and post-quantum cryptography. You can find my PhD thesis <a href="files/thesis.pdf">here</a> and my CV <a href="files/CV.pdf">here</a>.
@@ -37,7 +37,7 @@ My research interests are in various aspects of both practical and theoretical c
 ## Research Experience
 From summer 2025, I work as a postdoc with <a href="https://scholar.google.com/citations?user=cDvpjhcAAAAJ&hl=en"> Eleni Diamanti</a>, <a href="https://abgrilo.github.io/">Alex B.Grilo</a>, <a href="https://www.lre.epita.fr/perso/ludovic-perret/"> Ludovic Perret</a>.<br>
 
-I spent the summer of 2023 as a research intern at [COSIC](https://www.esat.kuleuven.be/cosic/) hosted by [Nigel Smart](https://nigelsmart.github.io/), and the summer of 2024 interning at [NTT Social Informatics Laboratories](https://www.rd.ntt/e/sil/), working with [Masayuki Abe](https://security-kouza.github.io/nanacov/). <br>
+I spent the summer of 2023 as a research intern at [COSIC](https://www.esat.kuleuven.be/cosic/) hosted by [Nigel Smart](https://nigelsmart.github.io/), and the summer of 2024 interning at [NTT Social Informatics Laboratories](https://www.rd.ntt/e/sil/), working with [Masayuki Abe](https://iacr.org/cryptodb/data/author.php?authorkey=46). <br>
 
 Before starting my PhD, I interned at [XLIM](https://www.xlim.fr/en) in the summer of 2020 under the supervision of [Duong Hieu Phan](https://www.di.ens.fr/users/phan/index.html), and in the summer of 2021, I worked as an intern at [IRIF](https://www.irif.fr/) with [Geoffroy Couteau](https://geoffroycouteau.github.io/).
 
@@ -102,6 +102,7 @@ For an up-to-date list of my publications, you can check my [Dblp profile](https
 ## Presentations
 A list of talks where I had the opportunity to present and discuss my work. I have been working on function secret sharing (FSS), pseudorandom correlation generators (PCGs), pseudorandom correlation functions (PCFs), post-quantum signatures (using the MPC/VOLE-in-the-Head paradigm), generic multi-party computation (MPC), and private set intersection (PSI), a specific type of MPC.
 
+- Nov 2025: NTT Social Informatics Laboratories (Crypto Seminar) - Tokyo, Japan
 - Nov 2025: CANS 2025 (Conference) - Osaka, Japan
 - Sep 2025: Florida Atlantic University (Crypto Café) - Virtual
 - Jul 2025: ACISP 2025 (Conference) - Wollongong, Australia
