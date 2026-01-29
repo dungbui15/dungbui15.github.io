@@ -81,7 +81,7 @@ For an up-to-date list of my publications, you can check my [Dblp profile](https
 - Improved All-but-One Vector Commitment with Applications to Post-Quantum Signatures [[ePrint]](https://eprint.iacr.org/2024/097)  
   *Dung Bui, Kelong Cong, Cyprien Delpech de Saint Guilhem* <br>
   In ACISP 2025
-- Efficient Multi-instance Vector Commitment and Application to Post-quantum Signatures <br>
+- Efficient Multi-instance Vector Commitment and Application to Post-quantum Signatures [[ePrint]](https://eprint.iacr.org/2024/465) <br>
   *Dung Bui* <br>
   In ACISP 2025
 - FOLEAGE: F4OLE-Based Multi-Party Computation for Boolean Circuits [[ePrint]](https://eprint.iacr.org/2024/429)  
