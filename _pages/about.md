@@ -45,7 +45,7 @@ Before starting my PhD, I interned at [XLIM](https://www.xlim.fr/en) in the summ
 <div class="scrollable">
   <ul>
     <li>Jan 2026: On paper is accepted at EUROCRYPT 2026.</li>
-    <li>Jan 2026: I participate in ``<a href="https://quantip.org/espace-grand-public/quantum-day/">Quantum Day</a> (Lumière sur la quantique)''.</li>
+    <li>Jan 2026: I participate in <a href="https://quantip.org/espace-grand-public/quantum-day/">Quantum Day</a> (Lumière sur la quantique).</li>
     <li>Jan 2026: I give a talk at <a href="https://seminaire-c2.inria.fr/">INRIA – C2 (Codage & Cryptographie) seminar</a>.</li>
     <li>Dec 2025: I'm on the Program Committee of CCS 2026 (Cycle 2).</li>
     <li>Nov 2025: I visit <a href="https://www.rd.ntt/e/sil/">NTT Social Informatics Laboratories</a> for a week.</li>
@@ -67,7 +67,7 @@ For an up-to-date list of my publications, you can check my [Dblp profile](https
 
 **Conference/Journal:**
 - Critical Round in Multi-Round Proofs: Compositions and Transformation to Trapdoor Commitments [[ePrint]](https://eprint.iacr.org/2024/1766)  
-  *Masayuki Abe, David Balbás, Dung Bui, Miyako Ohkubo, Zehua Shang, Akira Takahashi, Mehdi Tibouchi*
+  *Masayuki Abe, David Balbás, Dung Bui, Miyako Ohkubo, Zehua Shang, Akira Takahashi, Mehdi Tibouchi*<br>
   In EUROCRYPT 2026
 - New Framework for Structure-Aware PSI From Distributed Function Secret Sharing [[ePrint]](https://eprint.iacr.org/2025/907)<br>
   *Dung Bui, Gayathri Garimella, Peihan Miao, Phuoc Van Long Pham* <br>
@@ -126,5 +126,3 @@ A list of talks where I had the opportunity to present and discuss my work. I ha
 ## Professional Activities
 External Reviewer: TCC 2022, CSF 2022–2023, IEEE-TIFs 2024, EUROCRYPT 2025, ACNS 2025, CRYPTO 2025 (x3), PriCrypt 2025, CCS 2025, ASIACRYPT 2025, EUROCRYPT 2026 (x2), PKC 2026.<br>
 Program Committee: APKC 2025, LATINCRYPT 2025, APKC 2026, CCS 2026.
-
-<p> *Last updated on {{ site.time | date: "%B %d, %Y" }}* </p>
