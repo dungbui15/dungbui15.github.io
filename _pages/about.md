@@ -44,6 +44,10 @@ Before starting my PhD, I interned at [XLIM](https://www.xlim.fr/en) in the summ
 ## News
 <div class="scrollable">
   <ul>
+    <li>Jan 2026: On paper is accepted at EUROCRYPT 2026.</li>
+    <li>Jan 2026: I participate in ``<a href="https://quantip.org/espace-grand-public/quantum-day/">Quantum Day</a> (Lumière sur la quantique)''.</li>
+    <li>Jan 2026: I give a talk at <a href="https://seminaire-c2.inria.fr/">INRIA – C2 (Codage & Cryptographie) seminar</a>.</li>
+    <li>Dec 2025: I'm on the Program Committee of CCS 2026 (Cycle 2).</li>
     <li>Nov 2025: I visit <a href="https://www.rd.ntt/e/sil/">NTT Social Informatics Laboratories</a> for a week.</li>
     <li>Nov 2025: I attend <a href="https://cy2sec.comm.eng.osaka-u.ac.jp/miyaji-lab/event/cans2025/">CANS</a>, <a href="https://eprint.iacr.org/2025/1470">our paper</a> got the best paper award.</li>
     <li>Aug 2025: One paper is accepted at ASIACRYPT 2025.</li>
@@ -62,6 +66,9 @@ Before starting my PhD, I interned at [XLIM](https://www.xlim.fr/en) in the summ
 For an up-to-date list of my publications, you can check my [Dblp profile](https://dblp.uni-trier.de/pid/127/1711.html) or my [Google scholar profile](https://scholar.google.com/citations?user=StGOHMUAAAAJ&hl=en&authuser=1).
 
 **Conference/Journal:**
+- Critical Round in Multi-Round Proofs: Compositions and Transformation to Trapdoor Commitments [[ePrint]](https://eprint.iacr.org/2024/1766)  
+  *Masayuki Abe, David Balbás, Dung Bui, Miyako Ohkubo, Zehua Shang, Akira Takahashi, Mehdi Tibouchi*
+  In EUROCRYPT 2026
 - New Framework for Structure-Aware PSI From Distributed Function Secret Sharing [[ePrint]](https://eprint.iacr.org/2025/907)<br>
   *Dung Bui, Gayathri Garimella, Peihan Miao, Phuoc Van Long Pham* <br>
   In ASIACRYPT 2025
@@ -93,15 +100,11 @@ For an up-to-date list of my publications, you can check my [Dblp profile](https
   *Dung Bui, Geoffroy Couteau*  
   In PKC 2023
 
-**Preprints:**
-- Critical Round in Multi-Round Proofs: Compositions and Transformation to Trapdoor Commitments [[ePrint]](https://eprint.iacr.org/2024/1766)  
-  *Masayuki Abe, David Balbás, Dung Bui, Miyako Ohkubo, Zehua Shang, Akira Takahashi, Mehdi Tibouchi*
-
-
 
 ## Presentations
 A list of talks where I had the opportunity to present and discuss my work. I have been working on function secret sharing (FSS), pseudorandom correlation generators (PCGs), pseudorandom correlation functions (PCFs), post-quantum signatures (using the MPC/VOLE-in-the-Head paradigm), generic multi-party computation (MPC), and private set intersection (PSI), a specific type of MPC.
 
+- Jan 2026: INRIA – C2 (Codage & Cryptographie) Seminar - Paris, France
 - Nov 2025: NTT Social Informatics Laboratories (Crypto Seminar) - Tokyo, Japan
 - Nov 2025: CANS 2025 (Conference) - Osaka, Japan
 - Sep 2025: Florida Atlantic University (Crypto Café) - Virtual
@@ -122,6 +125,6 @@ A list of talks where I had the opportunity to present and discuss my work. I ha
 
 ## Professional Activities
 External Reviewer: TCC 2022, CSF 2022–2023, IEEE-TIFs 2024, EUROCRYPT 2025, ACNS 2025, CRYPTO 2025 (x3), PriCrypt 2025, CCS 2025, ASIACRYPT 2025, EUROCRYPT 2026 (x2), PKC 2026.<br>
-Program Committee: APKC 2025, LATINCRYPT 2025, APKC 2026.
+Program Committee: APKC 2025, LATINCRYPT 2025, APKC 2026, CCS 2026.
 
 <p> *Last updated on {{ site.time | date: "%B %d, %Y" }}* </p>
