@@ -47,7 +47,7 @@ Before starting my PhD, I interned at [XLIM](https://www.xlim.fr/en) in the summ
     <li>Jan 2026: On paper is accepted at EUROCRYPT 2026.</li>
     <li>Jan 2026: I participate in <a href="https://quantip.org/espace-grand-public/quantum-day/">Quantum Day</a> (Lumière sur la quantique).</li>
     <li>Jan 2026: I give a talk at <a href="https://seminaire-c2.inria.fr/">INRIA – C2 (Codage & Cryptographie) seminar</a>.</li>
-    <li>Dec 2025: I'm on the Program Committee of CCS 2026 (Cycle 2).</li>
+    <li>Dec 2025: I'm on the Program Committee of CCS 2026.</li>
     <li>Nov 2025: I visit <a href="https://www.rd.ntt/e/sil/">NTT Social Informatics Laboratories</a> for a week.</li>
     <li>Nov 2025: I attend <a href="https://cy2sec.comm.eng.osaka-u.ac.jp/miyaji-lab/event/cans2025/">CANS</a>, <a href="https://eprint.iacr.org/2025/1470">our paper</a> got the best paper award.</li>
     <li>Aug 2025: One paper is accepted at ASIACRYPT 2025.</li>
