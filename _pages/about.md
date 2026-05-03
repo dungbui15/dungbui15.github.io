@@ -66,32 +66,11 @@ Before starting my PhD, I interned at [XLIM](https://www.xlim.fr/en) in the summ
   </ul>
 </div>
 
-## Publications
-/publications/
+- title: "Publications"
+  url: /publications/
 
+- title: "Presentations"
+  url: /presentations/
 
-## Presentations
-A list of talks where I had the opportunity to present and discuss my work. I have been working on function secret sharing (FSS), pseudorandom correlation generators (PCGs), pseudorandom correlation functions (PCFs), post-quantum signatures (using the MPC/VOLE-in-the-Head paradigm), generic multi-party computation (MPC), and private set intersection (PSI), a specific type of MPC.
-
-- Jan 2026: INRIA – C2 (Codage & Cryptographie) Seminar - Paris, France
-- Nov 2025: NTT Social Informatics Laboratories (Crypto Seminar) - Tokyo, Japan
-- Nov 2025: CANS 2025 (Conference) - Osaka, Japan
-- Sep 2025: Florida Atlantic University (Crypto Café) - Virtual
-- Jul 2025: ACISP 2025 (Conference) - Wollongong, Australia
-- Apr 2025: VIASM (Crypto Seminar) - Virtual
-- Mar 2025: LIP6, Sorbonne Université (ALMASTY seminar) - Paris, France
-- Dec 2024: Asiacrypt 2024 (Conference) - Kolkata, India
-- Dec 2024: CWI (Crypto Student Seminar) - Amsterdam, Netherlands
-- Nov 2024: Telecom Paris, Institut Polytechnique de Paris (Crypto Day) - Paris, France
-- Jun 2024: NTT Social Informatics Laboratories (Crypto Seminar) - Tokyo, Japan
-- May 2024: J.P. Morgan (AlgoCRYPT Seminar) - Virtual
-- May 2024: IRIF (Non-permanents' Seminar) - Paris, France
-- May 2023: PKC 2023 (Conference) - Atlanta, USA
-- May 2023: VIASM (Crypto Seminar) - Virtual
-- Apr 2023: IRIF (Algorithm and Complexity Seminar) - Paris, France
-- Jul 2022: CWI (Crypto Student Seminar) - Virtual
-- Apr 2022: Journées C2 (Codage & Cryptographie) (Workshop) - Hendaye, France
-
-## Professional Activities
-External Reviewer: TCC 2022, CSF 2022–2023, IEEE-TIFs 2024, EUROCRYPT 2025, ACNS 2025, CRYPTO 2025 (x3), PriCrypt 2025, CCS 2025, ASIACRYPT 2025, EUROCRYPT 2026 (x2), PKC 2026.<br>
-Program Committee: APKC 2025, LATINCRYPT 2025, APKC 2026, CCS 2026.
+- title: "Professional Activities"
+  url: /activities/
