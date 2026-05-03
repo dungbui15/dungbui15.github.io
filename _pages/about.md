@@ -44,6 +44,10 @@ Before starting my PhD, I interned at [XLIM](https://www.xlim.fr/en) in the summ
 ## News
 <div class="scrollable">
   <ul>
+    <li>May 2026: I give a talk at Vietnam Institute for Advanced Study in Mathematics (VIASM) (Virtual).</li>
+    <li>Apr 2026: I received an <a href="https://gdr-securite.irisa.fr/prix-de-these/">Honorable Mention</a> for the 2025 PhD Thesis Prize from GDR Sécurité (CNRS), an annual award recognizing excellent PhD theses in Information Security in France.</li>
+    <li>Apr 2026: I give a talk at ALMASTY seminar, Université Sorbonne, Paris, France.</li>
+    <li>Mar 2026: I give a talk at Cybersécurité DVRC/ESILV workshop, Paris, France.</li>
     <li>Jan 2026: On paper is accepted at EUROCRYPT 2026.</li>
     <li>Jan 2026: I participate in <a href="https://quantip.org/espace-grand-public/quantum-day/">Quantum Day</a> (Lumière sur la quantique).</li>
     <li>Jan 2026: I give a talk at <a href="https://seminaire-c2.inria.fr/">INRIA – C2 (Codage & Cryptographie) seminar</a>.</li>
