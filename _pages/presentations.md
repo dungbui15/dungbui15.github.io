@@ -7,7 +7,7 @@ author_profile: true
 tags: test
 categories: TestCategories
 ---
-## Presentations
+
 A list of talks where I had the opportunity to present and discuss my work. I have been working on function secret sharing (FSS), pseudorandom correlation generators (PCGs), pseudorandom correlation functions (PCFs), post-quantum signatures (using the MPC/VOLE-in-the-Head paradigm), generic multi-party computation (MPC), and private set intersection (PSI), a specific type of MPC.
 
 **2026**
