@@ -32,7 +32,7 @@ div {
 I am a postdoctoral researcher at [EPITA](https://www.epita.fr/campus/ecole-ingenieur-informatique-paris-kb/) and [QI](https://qi.lip6.fr/fr/team/) team, CNRS, LIP6, Sorbonne Université.<br>
 
 I completed my PhD at [IRIF](https://www.irif.fr/), Université Paris Cité, under the supervision of [Geoffroy Couteau](https://geoffroycouteau.github.io/). Before that, I got my Master's degree (2019 -- 2021) in Cryptology and Information Security [Cryptis program](https://www.cryptis.fr/) at Université de Limoges. <br>
-My research interests are in various aspects of both practical and theoretical cryptography, including secure multiparty computation, zero-knowledge proofs, and post-quantum cryptography. You can find my PhD thesis <a href="files/thesis.pdf">here</a> and my CV <a href="files/CV.pdf">here</a>.
+My research focuses on cryptography, including secure multiparty computation, zero-knowledge proofs, and post-quantum cryptography. You can find my PhD thesis <a href="files/thesis.pdf">here</a> and my CV <a href="files/CV.pdf">here</a>.
 
 ## Research Experience
 From summer 2025, I work as a postdoc with <a href="https://scholar.google.com/citations?user=cDvpjhcAAAAJ&hl=en"> Eleni Diamanti</a>, <a href="https://abgrilo.github.io/">Alex B.Grilo</a>, <a href="https://www.lre.epita.fr/perso/ludovic-perret/"> Ludovic Perret</a>.<br>
