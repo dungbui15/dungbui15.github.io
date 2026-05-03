@@ -1,14 +1,15 @@
 # main links links
 main:
-  # - title: "Publications"
-  #   url: /publications/
+  - title: "Publications"
+    url: /publications/
 
 
-  # - title: "Presentations"
-  #   url: /presentations/    
+  - title: "Presentations"
+    url: /presentations/    
 
     
-  # - title: "CV"
-  #   url: /files/CV.pdf
+ - title: "Professional Activities"
+
+ - title: "Miscellaneous"
     
 
