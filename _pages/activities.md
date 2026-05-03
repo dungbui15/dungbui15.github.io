@@ -1,8 +1,11 @@
 ---
+title:  "Professional Activities"
+classes: wide
 layout: archive
-title: "Professional Activities"
 permalink: /activities/
 author_profile: true
+tags: test
+categories: TestCategories
 ---
 Program Committee: 
 
