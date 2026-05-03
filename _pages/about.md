@@ -66,8 +66,8 @@ Before starting my PhD, I interned at [XLIM](https://www.xlim.fr/en) in the summ
   </ul>
 </div>
 
-## [Presentations](/presentations/)
-
 ## [Publications](/publications/)
+
+## [Presentations](/presentations/)
 
 ## [Professional Activities](/activities/)
