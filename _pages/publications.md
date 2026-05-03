@@ -7,8 +7,6 @@ author_profile: true
 tags: test
 categories: TestCategories
 ---
-## Publications
-
 For an up-to-date list of my publications, you can check my [Dblp profile](https://dblp.uni-trier.de/pid/127/1711.html) or my [Google scholar profile](https://scholar.google.com/citations?user=StGOHMUAAAAJ&hl=en&authuser=1).
 
 **2026**
