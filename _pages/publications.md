@@ -7,6 +7,27 @@ author_profile: true
 tags: test
 categories: TestCategories
 ---
+<style>
+div {
+  text-align: justify;
+  text-justify: inter-word;
+}
+</style>
+<style>
+    .scrollable {
+      width: 100%;           /* Set the width to match the page width */
+      max-width: 100%;       /* Prevent overflow beyond the page width */
+      height: 150px;         /* Fixed height for vertical scrolling */
+      overflow-y: scroll;    /* Enable vertical scrolling */
+      border: 1px solid transparent; /* Optional: Add a border for visibility */
+      box-sizing: border-box; /* Include padding and border in the width */
+      padding: 10px 20px 0px;         /* Optional: Add padding for spacing */
+    }
+  .scrollable ul {
+    margin: 0;        /* Remove default margin for the list */
+  }
+  </style>
+  
 For an up-to-date list of my publications, you can check my [Dblp profile](https://dblp.uni-trier.de/pid/127/1711.html) or my [Google scholar profile](https://scholar.google.com/citations?user=StGOHMUAAAAJ&hl=en&authuser=1).
 
 **2026**
