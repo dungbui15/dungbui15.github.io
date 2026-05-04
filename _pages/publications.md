@@ -63,15 +63,14 @@ For an up-to-date list of my publications, you can check my [Dblp profile](https
 - Faster Signatures from MPC-in-the-Head [[ePrint]](https://eprint.iacr.org/2024/252)  
   *Dung Bui, Eliana Carozza, Geoffroy Couteau, Dahmun Goudarzi, Antoine Joux*  
   In ASIACRYPT 2024
-- An Efficient ZK Compiler from SIMD Circuits to General Circuits [[ePrint]](https://eprint.iacr.org/2023/1610)  
-  *Dung Bui, Haotian Chu, Geoffroy Couteau, Xiao Wang, Chenkai Weng, Kang Yang, Yu Yu*  
-  In Journal of Cryptology 2024
 - Fast Public-Key Silent OT and More from Constrained Naor-Reingold [[ePrint]](https://eprint.iacr.org/2024/178)  
   *Dung Bui, Geoffroy Couteau, Pierre Meyer, Alain Passelègue, Mahshid Riahinia*  
   In EUROCRYPT 2024
 
 **2023**
-
+- An Efficient ZK Compiler from SIMD Circuits to General Circuits [[ePrint]](https://eprint.iacr.org/2023/1610)  
+  *Dung Bui, Haotian Chu, Geoffroy Couteau, Xiao Wang, Chenkai Weng, Kang Yang, Yu Yu*  
+  In Journal of Cryptology 2024
 - Improved Private Set Intersection for Sets with Small Entries [[ePrint]](https://eprint.iacr.org/2022/334)  
   *Dung Bui, Geoffroy Couteau*  
   In PKC 2023
