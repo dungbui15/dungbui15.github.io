@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dung Bui — Cryptography</title>
+<meta name="description" content="Dung Bui is a postdoctoral researcher in cryptography: secure multiparty computation, zero-knowledge proofs, and post-quantum cryptography.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#FCFCFA;
+    --ink:#14171F;
+    --muted:#5C6270;
+    --rule:#D9DAD4;
+    --link:#2743C7;      /* hyperref blue */
+    --link-tint:#EEF0FB;
+    --tag-ink:#3A3F4E;
+    --max:46rem;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:"STIX Two Text",Georgia,serif;
+    font-size:1.0625rem;
+    line-height:1.62;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:var(--link);text-decoration:none;border-bottom:1px solid transparent;transition:border-color .12s}
+  a:hover{border-bottom-color:var(--link)}
+  a:focus-visible{outline:2px solid var(--link);outline-offset:2px;border-radius:2px}
+
+  .wrap{max-width:var(--max);margin:0 auto;padding:0 1.5rem}
+
+  /* ── top strip, eprint-style ─────────────────────────── */
+  .strip{
+    position:sticky;top:0;z-index:10;
+    background:var(--paper);
+    border-bottom:1px solid var(--rule);
+    padding:.65rem 0;
+    font-family:"IBM Plex Mono",monospace;
+    font-size:.72rem;
+    letter-spacing:.02em;
+    color:var(--muted);
+  }
+  .strip .wrap{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+  .strip nav{display:flex;gap:1.15rem;flex-wrap:wrap}
+  .strip nav a{color:var(--muted)}
+  .strip nav a:hover{color:var(--link);border-bottom-color:transparent}
+
+  /* ── title block ─────────────────────────────────────── */
+  header.title-block{padding:4rem 0 3rem;text-align:center}
+  .portrait{
+    width:7.5rem;height:7.5rem;border-radius:50%;object-fit:cover;
+    border:1px solid var(--rule);margin-bottom:1.4rem;
+  }
+  h1{
+    font-size:clamp(2.1rem,6vw,3.1rem);
+    font-weight:600;
+    letter-spacing:-.01em;
+    line-height:1.15;
+  }
+  h1 .ipa{font-weight:400;font-style:italic;color:var(--muted);font-size:.45em;vertical-align:middle;margin-left:.5rem;letter-spacing:0}
+  .author-line{margin-top:1.1rem;font-size:1.05rem}
+  .affil{color:var(--muted);font-style:italic;margin-top:.15rem}
+  .links{
+    margin-top:1.5rem;
+    display:flex;justify-content:center;flex-wrap:wrap;gap:.5rem .6rem;
+    font-family:"IBM Plex Mono",monospace;font-size:.75rem;
+  }
+  .links a{
+    border:1px solid var(--rule);border-radius:999px;
+    padding:.32rem .8rem;color:var(--tag-ink);
+  }
+  .links a:hover{border-color:var(--link);color:var(--link)}
+
+  /* ── abstract ────────────────────────────────────────── */
+  .abstract{max-width:38rem;margin:0 auto;padding:0 1.5rem 3.5rem}
+  .abstract h2{
+    text-align:center;font-size:.95rem;font-weight:700;
+    letter-spacing:.12em;text-transform:uppercase;margin-bottom:.9rem;
+  }
+  .abstract p + p{margin-top:.8rem}
+
+  /* ── sections ────────────────────────────────────────── */
+  section{padding:3rem 0;border-top:1px solid var(--rule)}
+  .sec-label{
+    font-family:"IBM Plex Mono",monospace;
+    font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;
+    color:var(--muted);margin-bottom:1.6rem;
+  }
+  section p + p{margin-top:.8rem}
+
+  /* timeline lists (news, presentations) */
+  .tl{list-style:none}
+  .tl li{
+    display:grid;grid-template-columns:6.4rem 1fr;gap:1rem;
+    padding:.55rem 0;
+  }
+  .tl li + li{border-top:1px dotted var(--rule)}
+  .tl time{
+    font-family:"IBM Plex Mono",monospace;font-size:.74rem;
+    color:var(--muted);padding-top:.28rem;white-space:nowrap;
+  }
+  .tl .more{display:none}
+  .tl.expanded .more{display:grid}
+  .show-more{
+    margin-top:1.2rem;
+    font-family:"IBM Plex Mono",monospace;font-size:.74rem;
+    background:none;border:1px solid var(--rule);border-radius:999px;
+    padding:.4rem 1rem;color:var(--tag-ink);cursor:pointer;
+  }
+  .show-more:hover{border-color:var(--link);color:var(--link)}
+  .show-more:focus-visible{outline:2px solid var(--link);outline-offset:2px}
+
+  .year{
+    font-family:"IBM Plex Mono",monospace;font-size:.8rem;
+    color:var(--muted);margin:2rem 0 .8rem;
+  }
+  .year:first-of-type{margin-top:0}
+
+  /* publications */
+  .pub{padding:.85rem 0}
+  .pub + .pub{border-top:1px dotted var(--rule)}
+  .pub .t{font-weight:600}
+  .pub .a{color:var(--muted);font-size:.95rem;margin-top:.15rem}
+  .pub .a b{color:var(--ink);font-weight:500}
+  .pub .meta{
+    margin-top:.4rem;display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;
+    font-family:"IBM Plex Mono",monospace;font-size:.7rem;
+  }
+  .venue{
+    background:var(--link-tint);color:var(--link);
+    border-radius:4px;padding:.18rem .5rem;letter-spacing:.03em;
+  }
+  .award{background:#FBF3E2;color:#8A6410;border-radius:4px;padding:.18rem .5rem}
+  .pub .meta a{color:var(--muted)}
+  .pub .meta a:hover{color:var(--link)}
+
+  /* activities */
+  .act{display:grid;grid-template-columns:10.5rem 1fr;gap:.35rem 1.2rem}
+  .act dt{
+    font-family:"IBM Plex Mono",monospace;font-size:.74rem;color:var(--muted);
+    padding-top:.25rem;
+  }
+  .act dd + dt, .act dt + dt{margin-top:.6rem}
+  @media (max-width:540px){
+    .act{grid-template-columns:1fr}
+    .act dd{margin-bottom:.6rem}
+  }
+
+  footer{
+    border-top:1px solid var(--rule);
+    padding:2.2rem 0 3rem;
+    font-family:"IBM Plex Mono",monospace;font-size:.72rem;color:var(--muted);
+    text-align:center;
+  }
+
+  @media (max-width:540px){
+    .tl li{grid-template-columns:1fr;gap:.1rem}
+    header.title-block{padding:3rem 0 2.2rem}
+  }
+</style>
+</head>
+<body>
+
+<div class="strip">
+  <div class="wrap">
+    <span>dungbui15.github.io</span>
+    <nav aria-label="Sections">
+      <a href="#news">News</a>
+      <a href="#publications">Publications</a>
+      <a href="#presentations">Talks</a>
+      <a href="#activities">Service</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</div>
+
+<header class="title-block wrap">
+  <img class="portrait" src="images/profile.png" alt="Portrait of Dung Bui">
+  <h1><span id="name" aria-label="Dung Bui">Dung Bui</span><span class="ipa">[zʊŋ]</span></h1>
+  <p class="author-line">Postdoctoral Researcher in Cryptography</p>
+  <p class="affil">Northwestern University · Evanston, IL</p>
+  <div class="links">
+    <a href="mailto:dungbui9736@gmail.com">Email</a>
+    <a href="https://scholar.google.com/citations?user=StGOHMUAAAAJ">Google Scholar</a>
+    <a href="https://dblp.uni-trier.de/pid/127/1711.html">dblp</a>
+    <a href="https://www.linkedin.com/in/dungbui15">LinkedIn</a>
+    <a href="files/CV.pdf">CV</a>
+    <a href="files/thesis.pdf">PhD thesis</a>
+  </div>
+</header>
+
+<div class="abstract">
+  <h2>Abstract</h2>
+  <p>I am a postdoctoral researcher at Northwestern University, working with <a href="https://wangxiao1254.github.io/">Xiao Wang</a>. My research focuses on cryptography, including secure multiparty computation, zero-knowledge proofs, and post-quantum cryptography.</p>
+  <p>I completed my PhD at <a href="https://www.irif.fr/">IRIF</a>, Université Paris Cité, under the supervision of <a href="https://geoffroycouteau.github.io/">Geoffroy Couteau</a>. My thesis received an Honorable Mention for the 2025 PhD Thesis Prize from GDR Sécurité (CNRS). Before that, I obtained my Master's degree (2019–2021) in Cryptology and Information Security through the <a href="https://www.cryptis.fr/">Cryptis program</a> at Université de Limoges.</p>
+</div>
+
+<section id="experience">
+  <div class="wrap">
+    <p class="sec-label">§1 &nbsp;Research experience</p>
+    <p>From summer 2025 to 2026, I was a postdoc at <a href="https://www.epita.fr/campus/ecole-ingenieur-informatique-paris-kb/">EPITA</a> and the <a href="https://qi.lip6.fr/fr/team/">QI team</a>, CNRS, LIP6, Sorbonne Université, working with <a href="https://scholar.google.com/citations?user=cDvpjhcAAAAJ">Eleni Diamanti</a>, <a href="https://abgrilo.github.io/">Alex B. Grilo</a>, and <a href="https://www.lre.epita.fr/perso/ludovic-perret/">Ludovic Perret</a>.</p>
+    <p>I spent the summer of 2023 as a research intern at <a href="https://www.esat.kuleuven.be/cosic/">COSIC</a> (KU Leuven), hosted by <a href="https://nigelsmart.github.io/">Nigel Smart</a>, and the summer of 2024 at <a href="https://www.rd.ntt/e/sil/">NTT Social Informatics Laboratories</a> (Tokyo), working with <a href="https://iacr.org/cryptodb/data/author.php?authorkey=46">Masayuki Abe</a>.</p>
+    <p>Before my PhD, I interned at <a href="https://www.xlim.fr/en">XLIM</a> in the summer of 2020 under the supervision of <a href="https://www.di.ens.fr/users/phan/index.html">Duong Hieu Phan</a>, and in the summer of 2021 at <a href="https://www.irif.fr/">IRIF</a> with <a href="https://geoffroycouteau.github.io/">Geoffroy Couteau</a>.</p>
+  </div>
+</section>
+
+<section id="news">
+  <div class="wrap">
+    <p class="sec-label">§2 &nbsp;News</p>
+    <ul class="tl" id="newsList">
+      <li><time>May 2026</time><span>Talk at the Vietnam Institute for Advanced Study in Mathematics (VIASM), virtual.</span></li>
+      <li><time>Apr 2026</time><span><a href="https://gdr-securite.irisa.fr/prix-de-these/">Honorable Mention</a>, 2025 PhD Thesis Prize, GDR Sécurité (CNRS) — an annual award recognizing excellent PhD theses in information security in France.</span></li>
+      <li><time>Apr 2026</time><span>Talk at the ALMASTY seminar, Sorbonne Université, Paris.</span></li>
+      <li><time>Mar 2026</time><span>Talk at the Cybersécurité DVRC/ESILV workshop, Paris.</span></li>
+      <li><time>Jan 2026</time><span>One paper accepted at EUROCRYPT 2026.</span></li>
+      <li><time>Jan 2026</time><span>Participation in <a href="https://quantip.org/espace-grand-public/quantum-day/">Quantum Day</a> (Lumière sur la quantique).</span></li>
+      <li><time>Jan 2026</time><span>Talk at the <a href="https://seminaire-c2.inria.fr/">INRIA C2 (Codage &amp; Cryptographie) seminar</a>, Paris.</span></li>
+      <li><time>Dec 2025</time><span>Program Committee member, CCS 2026.</span></li>
+      <li class="more"><time>Nov 2025</time><span>Research visit to <a href="https://www.rd.ntt/e/sil/">NTT Social Informatics Laboratories</a> for a week.</span></li>
+      <li class="more"><time>Nov 2025</time><span>Attended <a href="https://cy2sec.comm.eng.osaka-u.ac.jp/miyaji-lab/event/cans2025/">CANS 2025</a>; <a href="https://eprint.iacr.org/2025/1470">our paper</a> received the Best Paper Award.</span></li>
+      <li class="more"><time>Aug 2025</time><span>One paper accepted at ASIACRYPT 2025.</span></li>
+      <li class="more"><time>Jul 2025</time><span>Two papers accepted at RANDOM 2025 and CANS 2025; attended ACISP 2025.</span></li>
+      <li class="more"><time>Apr 2025</time><span>Joined LIP6 (Sorbonne Université) as a postdoc, hosted by <a href="https://abgrilo.github.io/">Alex B. Grilo</a>.</span></li>
+      <li class="more"><time>Mar 2025</time><span>PhD defended — <a href="files/thesis.pdf">thesis here</a>.</span></li>
+      <li class="more"><time>Jan 2025</time><span>Two papers accepted at <a href="https://uow-ic2.github.io/acisp2025/cfp.html">ACISP 2025</a>.</span></li>
+      <li class="more"><time>Dec 2024</time><span>Attended <a href="https://asiacrypt.iacr.org/2024/">Asiacrypt 2024</a> (Kolkata, India) and presented <a href="https://eprint.iacr.org/2024/252">one of my accepted papers</a>.</span></li>
+      <li class="more"><time>Dec 2024</time><span>Research visit to CWI (Amsterdam, Netherlands) for a week.</span></li>
+      <li class="more"><time>Aug 2024</time><span>Two papers accepted at <a href="https://asiacrypt.iacr.org/2024/">Asiacrypt 2024</a>.</span></li>
+      <li class="more"><time>Jun 2024</time><span>Summer internship at <a href="https://www.rd.ntt/e/sil/">NTT Social Informatics Laboratories</a>, working with Masayuki Abe (June–August).</span></li>
+    </ul>
+    <button class="show-more" data-target="newsList" aria-expanded="false">Show earlier news ↓</button>
+  </div>
+</section>
+
+<section id="publications">
+  <div class="wrap">
+    <p class="sec-label">§3 &nbsp;Publications</p>
+
+    <p class="year">2026</p>
+    <div class="pub">
+      <p class="t">Critical Round in Multi-Round Proofs: Compositions and Transformation to Trapdoor Commitments</p>
+      <p class="a">Masayuki Abe, David Balbás, <b>Dung Bui</b>, Miyako Ohkubo, Zehua Shang, Akira Takahashi, Mehdi Tibouchi</p>
+      <p class="meta"><span class="venue">EUROCRYPT 2026</span><a href="https://eprint.iacr.org/2024/1766">ePrint</a></p>
+    </div>
+
+    <p class="year">2025</p>
+    <div class="pub">
+      <p class="t">New Framework for Structure-Aware PSI from Distributed Function Secret Sharing</p>
+      <p class="a"><b>Dung Bui</b>, Gayathri Garimella, Peihan Miao, Phuoc Van Long Pham</p>
+      <p class="meta"><span class="venue">ASIACRYPT 2025</span><a href="https://eprint.iacr.org/2025/907">ePrint</a></p>
+    </div>
+    <div class="pub">
+      <p class="t">Efficient Fuzzy Labeled PSI from Vector Ring-OLE</p>
+      <p class="a"><b>Dung Bui</b>, Kelong Cong</p>
+      <p class="meta"><span class="venue">CANS 2025</span><span class="award">Best Paper Award</span><a href="https://eprint.iacr.org/2025/1470">ePrint</a></p>
+    </div>
+    <div class="pub">
+      <p class="t">Structured-Seed Local Pseudorandom Generators and their Applications</p>
+      <p class="a">Benny Applebaum, <b>Dung Bui</b>, Geoffroy Couteau, Nikolas Melissaris</p>
+      <p class="meta"><span class="venue">RANDOM 2025</span><a href="https://eprint.iacr.org/2024/1027">ePrint</a></p>
+    </div>
+    <div class="pub">
+      <p class="t">Improved All-but-One Vector Commitment with Applications to Post-Quantum Signatures</p>
+      <p class="a"><b>Dung Bui</b>, Kelong Cong, Cyprien Delpech de Saint Guilhem</p>
+      <p class="meta"><span class="venue">ACISP 2025</span><a href="https://eprint.iacr.org/2024/097">ePrint</a></p>
+    </div>
+    <div class="pub">
+      <p class="t">Efficient Multi-instance Vector Commitment and Application to Post-quantum Signatures</p>
+      <p class="a"><b>Dung Bui</b></p>
+      <p class="meta"><span class="venue">ACISP 2025</span><a href="https://eprint.iacr.org/2024/465">ePrint</a></p>
+    </div>
+
+    <p class="year">2024</p>
+    <div class="pub">
+      <p class="t">FOLEAGE: 𝔽₄OLE-Based Multi-Party Computation for Boolean Circuits</p>
+      <p class="a">Maxime Bombar, <b>Dung Bui</b>, Geoffroy Couteau, Alain Couvreur, Clément Ducros, Sacha Servan-Schreiber</p>
+      <p class="meta"><span class="venue">ASIACRYPT 2024</span><a href="https://eprint.iacr.org/2024/429">ePrint</a></p>
+    </div>
+    <div class="pub">
+      <p class="t">Faster Signatures from MPC-in-the-Head</p>
+      <p class="a"><b>Dung Bui</b>, Eliana Carozza, Geoffroy Couteau, Dahmun Goudarzi, Antoine Joux</p>
+      <p class="meta"><span class="venue">ASIACRYPT 2024</span><a href="https://eprint.iacr.org/2024/252">ePrint</a></p>
+    </div>
+    <div class="pub">
+      <p class="t">Fast Public-Key Silent OT and More from Constrained Naor-Reingold</p>
+      <p class="a"><b>Dung Bui</b>, Geoffroy Couteau, Pierre Meyer, Alain Passelègue, Mahshid Riahinia</p>
+      <p class="meta"><span class="venue">EUROCRYPT 2024</span><a href="https://eprint.iacr.org/2024/178">ePrint</a></p>
+    </div>
+    <div class="pub">
+      <p class="t">An Efficient ZK Compiler from SIMD Circuits to General Circuits</p>
+      <p class="a"><b>Dung Bui</b>, Haotian Chu, Geoffroy Couteau, Xiao Wang, Chenkai Weng, Kang Yang, Yu Yu</p>
+      <p class="meta"><span class="venue">J. Cryptology 2024</span><a href="https://eprint.iacr.org/2023/1610">ePrint</a></p>
+    </div>
+
+    <p class="year">2023</p>
+    <div class="pub">
+      <p class="t">Improved Private Set Intersection for Sets with Small Entries</p>
+      <p class="a"><b>Dung Bui</b>, Geoffroy Couteau</p>
+      <p class="meta"><span class="venue">PKC 2023</span><a href="https://eprint.iacr.org/2022/334">ePrint</a></p>
+    </div>
+  </div>
+</section>
+
+<section id="presentations">
+  <div class="wrap">
+    <p class="sec-label">§4 &nbsp;Presentations</p>
+    <p style="margin-bottom:1.4rem">Talks where I had the opportunity to present and discuss my work — in particular function secret sharing (FSS), pseudorandom correlation generators (PCGs) and functions (PCFs), post-quantum signatures via the MPC/VOLE-in-the-Head paradigm, and private set intersection (PSI).</p>
+    <ul class="tl" id="talksList">
+      <li><time>May 2026</time><span>Vietnam Institute for Advanced Study in Mathematics (VIASM), crypto seminar — virtual.</span></li>
+      <li><time>Apr 2026</time><span>ALMASTY seminar, Sorbonne Université — Paris, France.</span></li>
+      <li><time>Mar 2026</time><span>Cybersécurité DVRC/ESILV workshop — Paris, France.</span></li>
+      <li><time>Jan 2026</time><span>INRIA C2 (Codage &amp; Cryptographie) seminar — Paris, France.</span></li>
+      <li><time>Nov 2025</time><span>NTT Social Informatics Laboratories, crypto seminar — Tokyo, Japan.</span></li>
+      <li><time>Nov 2025</time><span>CANS 2025 (conference) — Osaka, Japan.</span></li>
+      <li><time>Sep 2025</time><span>Florida Atlantic University, Crypto Café — virtual.</span></li>
+      <li><time>Jul 2025</time><span>ACISP 2025 (conference) — Wollongong, Australia.</span></li>
+      <li class="more"><time>Apr 2025</time><span>VIASM, crypto seminar — virtual.</span></li>
+      <li class="more"><time>Mar 2025</time><span>LIP6, Sorbonne Université, ALMASTY seminar — Paris, France.</span></li>
+      <li class="more"><time>Dec 2024</time><span>Asiacrypt 2024 (conference) — Kolkata, India.</span></li>
+      <li class="more"><time>Dec 2024</time><span>CWI, crypto student seminar — Amsterdam, Netherlands.</span></li>
+      <li class="more"><time>Nov 2024</time><span>Telecom Paris, Institut Polytechnique de Paris, Crypto Day — Paris, France.</span></li>
+      <li class="more"><time>Jun 2024</time><span>NTT Social Informatics Laboratories, crypto seminar — Tokyo, Japan.</span></li>
+      <li class="more"><time>May 2024</time><span>J.P. Morgan, AlgoCRYPT seminar — virtual.</span></li>
+      <li class="more"><time>May 2024</time><span>IRIF, non-permanents' seminar — Paris, France.</span></li>
+      <li class="more"><time>May 2023</time><span>PKC 2023 (conference) — Atlanta, USA.</span></li>
+      <li class="more"><time>May 2023</time><span>VIASM, crypto seminar — virtual.</span></li>
+      <li class="more"><time>Apr 2023</time><span>IRIF, algorithms and complexity seminar — Paris, France.</span></li>
+      <li class="more"><time>Jul 2022</time><span>CWI, crypto student seminar — virtual.</span></li>
+      <li class="more"><time>Apr 2022</time><span>Journées C2 (Codage &amp; Cryptographie) workshop — Hendaye, France.</span></li>
+    </ul>
+    <button class="show-more" data-target="talksList" aria-expanded="false">Show earlier talks ↓</button>
+  </div>
+</section>
+
+<section id="activities">
+  <div class="wrap">
+    <p class="sec-label">§5 &nbsp;Professional activities</p>
+    <dl class="act">
+      <dt>Program committee</dt>
+      <dd>2026: APKC, CCS<br>2025: APKC, LATINCRYPT</dd>
+      <dt>External reviewer</dt>
+      <dd>2026: EUROCRYPT, PKC, ICALP, CRYPTO<br>2025: EUROCRYPT, ACNS, CRYPTO, PriCrypt, CCS, ASIACRYPT<br>2022–2024: TCC, CSF, IEEE-TIFS</dd>
+    </dl>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="wrap">
+    <p class="sec-label">§6 &nbsp;Contact</p>
+    <p>Reach me at <a href="mailto:dungbui9736@gmail.com">dungbui9736@gmail.com</a>, or find me at Northwestern University, Evanston&nbsp;IL. An up-to-date publication list is on <a href="https://dblp.uni-trier.de/pid/127/1711.html">dblp</a> and <a href="https://scholar.google.com/citations?user=StGOHMUAAAAJ">Google Scholar</a>.</p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Dung Bui</p>
+</footer>
+
+<script>
+// Name "decrypts" from random shares on load — skipped if reduced motion.
+(function(){
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  const el = document.getElementById('name');
+  const target = 'Dung Bui';
+  const glyphs = '0123456789abcdefαβγλΣΠ⊕⊗';
+  let frame = 0;
+  const total = 26;
+  const tick = () => {
+    frame++;
+    let out = '';
+    for (let i = 0; i < target.length; i++) {
+      if (target[i] === ' ') { out += ' '; continue; }
+      const reveal = (i + 1) * (total / (target.length + 2));
+      out += frame >= reveal ? target[i] : glyphs[Math.floor(Math.random() * glyphs.length)];
+    }
+    el.textContent = out;
+    if (frame < total) requestAnimationFrame(tick);
+    else el.textContent = target;
+  };
+  tick();
+})();
+
+// Expand/collapse for news and talks
+document.querySelectorAll('.show-more').forEach(btn => {
+  const list = document.getElementById(btn.dataset.target);
+  const noun = btn.dataset.target === 'talksList' ? 'talks' : 'news';
+  btn.addEventListener('click', () => {
+    const open = list.classList.toggle('expanded');
+    btn.setAttribute('aria-expanded', open);
+    btn.textContent = open ? 'Show fewer ↑' : 'Show earlier ' + noun + ' ↓';
+  });
+});
+</script>
+
+</body>
+</html>
