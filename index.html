@@ -34,6 +34,9 @@
   a:hover{border-bottom-color:var(--link)}
   a:focus-visible{outline:2px solid var(--link);outline-offset:2px;border-radius:2px}
 
+  /* justified body text, LaTeX-style */
+  p.just{text-align:justify;hyphens:auto;-webkit-hyphens:auto}
+
   .wrap{max-width:var(--max);margin:0 auto;padding:0 1.5rem}
 
   /* ── top strip, eprint-style ─────────────────────────── */
@@ -163,6 +166,8 @@
   @media (max-width:540px){
     .tl li{grid-template-columns:1fr;gap:.1rem}
     header.title-block{padding:3rem 0 2.2rem}
+    /* justified text can look gappy on narrow screens */
+    p.just{text-align:left;hyphens:auto}
   }
 </style>
 </head>
@@ -198,16 +203,16 @@
 
 <div class="abstract">
   <h2>Abstract</h2>
-  <p>I am a postdoctoral researcher at Northwestern University, working with <a href="https://wangxiao1254.github.io/">Xiao Wang</a>. My research focuses on cryptography, including secure multiparty computation, zero-knowledge proofs, and post-quantum cryptography.</p>
-  <p>I completed my PhD at <a href="https://www.irif.fr/">IRIF</a>, Université Paris Cité, under the supervision of <a href="https://geoffroycouteau.github.io/">Geoffroy Couteau</a>. My thesis received an Honorable Mention for the 2025 PhD Thesis Prize from GDR Sécurité (CNRS). Before that, I obtained my Master's degree (2019–2021) in Cryptology and Information Security through the <a href="https://www.cryptis.fr/">Cryptis program</a> at Université de Limoges.</p>
+  <p class="just">I am a postdoctoral researcher at Northwestern University, working with <a href="https://wangxiao1254.github.io/">Xiao Wang</a>. My research focuses on cryptography, including secure multiparty computation, zero-knowledge proofs, and post-quantum cryptography. I am particularly interested in bridging theory and practice: designing protocols that are both provably secure and efficient enough for real-world use.</p>
+  <p class="just">I completed my PhD at <a href="https://www.irif.fr/">IRIF</a>, Université Paris Cité, under the supervision of <a href="https://geoffroycouteau.github.io/">Geoffroy Couteau</a>. My thesis received an Honorable Mention for the 2025 PhD Thesis Prize from GDR Sécurité (CNRS). Before that, I obtained my Master's degree (2019–2021) in Cryptology and Information Security through the <a href="https://www.cryptis.fr/">Cryptis program</a> at Université de Limoges.</p>
 </div>
 
 <section id="experience">
   <div class="wrap">
     <p class="sec-label">§1 &nbsp;Research experience</p>
-    <p>From summer 2025 to 2026, I was a postdoc at <a href="https://www.epita.fr/campus/ecole-ingenieur-informatique-paris-kb/">EPITA</a> and the <a href="https://qi.lip6.fr/fr/team/">QI team</a>, CNRS, LIP6, Sorbonne Université, working with <a href="https://scholar.google.com/citations?user=cDvpjhcAAAAJ">Eleni Diamanti</a>, <a href="https://abgrilo.github.io/">Alex B. Grilo</a>, and <a href="https://www.lre.epita.fr/perso/ludovic-perret/">Ludovic Perret</a>.</p>
-    <p>I spent the summer of 2023 as a research intern at <a href="https://www.esat.kuleuven.be/cosic/">COSIC</a> (KU Leuven), hosted by <a href="https://nigelsmart.github.io/">Nigel Smart</a>, and the summer of 2024 at <a href="https://www.rd.ntt/e/sil/">NTT Social Informatics Laboratories</a> (Tokyo), working with <a href="https://iacr.org/cryptodb/data/author.php?authorkey=46">Masayuki Abe</a>.</p>
-    <p>Before my PhD, I interned at <a href="https://www.xlim.fr/en">XLIM</a> in the summer of 2020 under the supervision of <a href="https://www.di.ens.fr/users/phan/index.html">Duong Hieu Phan</a>, and in the summer of 2021 at <a href="https://www.irif.fr/">IRIF</a> with <a href="https://geoffroycouteau.github.io/">Geoffroy Couteau</a>.</p>
+    <p class="just">From summer 2025 to 2026, I was a postdoc at <a href="https://www.epita.fr/campus/ecole-ingenieur-informatique-paris-kb/">EPITA</a> and the <a href="https://qi.lip6.fr/fr/team/">QI team</a>, CNRS, LIP6, Sorbonne Université, working with <a href="https://scholar.google.com/citations?user=cDvpjhcAAAAJ">Eleni Diamanti</a>, <a href="https://abgrilo.github.io/">Alex B. Grilo</a>, and <a href="https://www.lre.epita.fr/perso/ludovic-perret/">Ludovic Perret</a>.</p>
+    <p class="just">I spent the summer of 2023 as a research intern at <a href="https://www.esat.kuleuven.be/cosic/">COSIC</a> (KU Leuven), hosted by <a href="https://nigelsmart.github.io/">Nigel Smart</a>, and the summer of 2024 at <a href="https://www.rd.ntt/e/sil/">NTT Social Informatics Laboratories</a> (Tokyo), working with <a href="https://iacr.org/cryptodb/data/author.php?authorkey=46">Masayuki Abe</a>.</p>
+    <p class="just">Before my PhD, I interned at <a href="https://www.xlim.fr/en">XLIM</a> in the summer of 2020 under the supervision of <a href="https://www.di.ens.fr/users/phan/index.html">Duong Hieu Phan</a>, and in the summer of 2021 at <a href="https://www.irif.fr/">IRIF</a> with <a href="https://geoffroycouteau.github.io/">Geoffroy Couteau</a>.</p>
   </div>
 </section>
 
@@ -311,7 +316,7 @@
 <section id="presentations">
   <div class="wrap">
     <p class="sec-label">§4 &nbsp;Presentations</p>
-    <p style="margin-bottom:1.4rem">Talks where I had the opportunity to present and discuss my work — in particular function secret sharing (FSS), pseudorandom correlation generators (PCGs) and functions (PCFs), post-quantum signatures via the MPC/VOLE-in-the-Head paradigm, and private set intersection (PSI).</p>
+    <p class="just" style="margin-bottom:1.4rem">Talks where I had the opportunity to present and discuss my work — in particular function secret sharing (FSS), pseudorandom correlation generators (PCGs) and functions (PCFs), post-quantum signatures via the MPC/VOLE-in-the-Head paradigm, and private set intersection (PSI).</p>
     <ul class="tl" id="talksList">
       <li><time>May 2026</time><span>Vietnam Institute for Advanced Study in Mathematics (VIASM), crypto seminar — virtual.</span></li>
       <li><time>Apr 2026</time><span>ALMASTY seminar, Sorbonne Université — Paris, France.</span></li>
@@ -354,7 +359,7 @@
 <section id="contact">
   <div class="wrap">
     <p class="sec-label">§6 &nbsp;Contact</p>
-    <p>Reach me at <a href="mailto:dungbui9736@gmail.com">dungbui9736@gmail.com</a>, or find me at Northwestern University, Evanston&nbsp;IL. An up-to-date publication list is on <a href="https://dblp.uni-trier.de/pid/127/1711.html">dblp</a> and <a href="https://scholar.google.com/citations?user=StGOHMUAAAAJ">Google Scholar</a>.</p>
+    <p class="just">Reach me at <a href="mailto:dungbui9736@gmail.com">dungbui9736@gmail.com</a>, or find me at Northwestern University, Evanston&nbsp;IL. An up-to-date publication list is on <a href="https://dblp.uni-trier.de/pid/127/1711.html">dblp</a> and <a href="https://scholar.google.com/citations?user=StGOHMUAAAAJ">Google Scholar</a>.</p>
   </div>
 </section>
 
