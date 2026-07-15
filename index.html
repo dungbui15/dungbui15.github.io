@@ -27,7 +27,7 @@
     color:var(--ink);
     font-family:"STIX Two Text",Georgia,serif;
     font-size:1.0625rem;
-    line-height:1.62;
+    line-height:1.5;
     -webkit-font-smoothing:antialiased;
   }
   a{color:var(--link);text-decoration:none;border-bottom:1px solid transparent;transition:border-color .12s}
@@ -87,22 +87,22 @@
     text-align:center;font-size:.95rem;font-weight:700;
     letter-spacing:.12em;text-transform:uppercase;margin-bottom:.9rem;
   }
-  .abstract p + p{margin-top:.8rem}
+  .abstract p + p{margin-top:.55rem}
 
   /* ── sections ────────────────────────────────────────── */
-  section{padding:3rem 0;border-top:1px solid var(--rule)}
+  section{padding:2.2rem 0;border-top:1px solid var(--rule)}
   .sec-label{
     font-family:"IBM Plex Mono",monospace;
     font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;
-    color:var(--muted);margin-bottom:1.6rem;
+    color:var(--muted);margin-bottom:1.1rem;
   }
-  section p + p{margin-top:.8rem}
+  section p + p{margin-top:.55rem}
 
   /* timeline lists (news, presentations) */
   .tl{list-style:none}
   .tl li{
     display:grid;grid-template-columns:6.4rem 1fr;gap:1rem;
-    padding:.55rem 0;
+    padding:.3rem 0;
   }
   .tl li + li{border-top:1px dotted var(--rule)}
   .tl time{
@@ -127,7 +127,7 @@
   .year:first-of-type{margin-top:0}
 
   /* publications */
-  .pub{padding:.85rem 0}
+  .pub{padding:.55rem 0}
   .pub + .pub{border-top:1px dotted var(--rule)}
   .pub .t{font-weight:600}
   .pub .a{color:var(--muted);font-size:.95rem;margin-top:.15rem}
@@ -147,7 +147,7 @@
   /* research topics list in publications */
   .topics{list-style:none;margin:0 0 1.2rem}
   .topics li{
-    padding:.45rem 0 .45rem 1.3rem;position:relative;
+    padding:.22rem 0 .22rem 1.3rem;position:relative;
     text-align:justify;hyphens:auto;-webkit-hyphens:auto;
   }
   .topics li::before{
@@ -214,7 +214,7 @@
 
 <div class="abstract">
   <h2>Abstract</h2>
-  <p class="just">From summer 2026, I am a postdoctoral researcher at Northwestern University, working with <a href="https://wangxiao1254.github.io/">Xiao Wang</a>. My research focuses on cryptography, including secure multiparty computation, zero-knowledge proofs, and post-quantum cryptography. I am particularly interested in bridging theory and practice: designing protocols that are both provably secure and efficient enough for real-world use.</p>
+  <p class="just">I am a postdoctoral researcher at Northwestern University, working with <a href="https://wangxiao1254.github.io/">Xiao Wang</a>. My research focuses on cryptography, including secure multiparty computation, zero-knowledge proofs, and post-quantum cryptography. I am particularly interested in bridging theory and practice: designing protocols that are both provably secure and efficient enough for real-world use.</p>
   <p class="just">I completed my PhD at <a href="https://www.irif.fr/">IRIF</a>, Université Paris Cité, under the supervision of <a href="https://geoffroycouteau.github.io/">Geoffroy Couteau</a>. Before that, I obtained my Master's degree (2019–2021) in Cryptology and Information Security through the <a href="https://www.cryptis.fr/">Cryptis program</a> at Université de Limoges.</p>
 </div>
 
@@ -319,19 +319,18 @@
       <p class="a"><b>Dung Bui</b>, Geoffroy Couteau, Pierre Meyer, Alain Passelègue, Mahshid Riahinia</p>
       <p class="meta"><span class="venue">EUROCRYPT 2024</span><a href="https://eprint.iacr.org/2024/178">ePrint</a></p>
     </div>
-
-    <p class="year">2023</p>
     <div class="pub">
       <p class="t">An Efficient ZK Compiler from SIMD Circuits to General Circuits</p>
       <p class="a"><b>Dung Bui</b>, Haotian Chu, Geoffroy Couteau, Xiao Wang, Chenkai Weng, Kang Yang, Yu Yu</p>
       <p class="meta"><span class="venue">J. Cryptology 2024</span><a href="https://eprint.iacr.org/2023/1610">ePrint</a></p>
     </div>
+
+    <p class="year">2023</p>
     <div class="pub">
       <p class="t">Improved Private Set Intersection for Sets with Small Entries</p>
       <p class="a"><b>Dung Bui</b>, Geoffroy Couteau</p>
       <p class="meta"><span class="venue">PKC 2023</span><a href="https://eprint.iacr.org/2022/334">ePrint</a></p>
     </div>
-
   </div>
 </section>
 
