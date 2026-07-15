@@ -99,7 +99,15 @@
   section p + p{margin-top:.55rem}
 
   /* timeline lists (news, presentations) */
-  .tl{list-style:none}
+  .tl{
+    list-style:none;
+    max-height:20rem;overflow-y:auto;
+    padding-right:.9rem;
+    scrollbar-width:thin;scrollbar-color:var(--rule) transparent;
+  }
+  .tl::-webkit-scrollbar{width:5px}
+  .tl::-webkit-scrollbar-thumb{background:var(--rule);border-radius:99px}
+  .tl::-webkit-scrollbar-thumb:hover{background:var(--muted)}
   .tl li{
     display:grid;grid-template-columns:6.4rem 1fr;gap:1rem;
     padding:.3rem 0;
@@ -109,16 +117,6 @@
     font-family:"IBM Plex Mono",monospace;font-size:.74rem;
     color:var(--muted);padding-top:.28rem;white-space:nowrap;
   }
-  .tl .more{display:none}
-  .tl.expanded .more{display:grid}
-  .show-more{
-    margin-top:1.2rem;
-    font-family:"IBM Plex Mono",monospace;font-size:.74rem;
-    background:none;border:1px solid var(--rule);border-radius:999px;
-    padding:.4rem 1rem;color:var(--tag-ink);cursor:pointer;
-  }
-  .show-more:hover{border-color:var(--link);color:var(--link)}
-  .show-more:focus-visible{outline:2px solid var(--link);outline-offset:2px}
 
   .year{
     font-family:"IBM Plex Mono",monospace;font-size:.8rem;
@@ -241,19 +239,18 @@
       <li><time>Jan 2026</time><span>Participation in <a href="https://quantip.org/espace-grand-public/quantum-day/">Quantum Day</a> (Lumière sur la quantique).</span></li>
       <li><time>Jan 2026</time><span>Talk at the <a href="https://seminaire-c2.inria.fr/">INRIA C2 (Codage &amp; Cryptographie) seminar</a>, Paris.</span></li>
       <li><time>Dec 2025</time><span>Program Committee member, CCS 2026.</span></li>
-      <li class="more"><time>Nov 2025</time><span>Research visit to <a href="https://www.rd.ntt/e/sil/">NTT Social Informatics Laboratories</a> for a week.</span></li>
-      <li class="more"><time>Nov 2025</time><span>Attended <a href="https://cy2sec.comm.eng.osaka-u.ac.jp/miyaji-lab/event/cans2025/">CANS 2025</a>; <a href="https://eprint.iacr.org/2025/1470">our paper</a> received the Best Paper Award.</span></li>
-      <li class="more"><time>Aug 2025</time><span>One paper accepted at ASIACRYPT 2025.</span></li>
-      <li class="more"><time>Jul 2025</time><span>Two papers accepted at RANDOM 2025 and CANS 2025; attended ACISP 2025.</span></li>
-      <li class="more"><time>Apr 2025</time><span>Joined LIP6 (Sorbonne Université) as a postdoc, hosted by <a href="https://abgrilo.github.io/">Alex B. Grilo</a>.</span></li>
-      <li class="more"><time>Mar 2025</time><span>PhD defended — <a href="files/thesis.pdf">thesis here</a>.</span></li>
-      <li class="more"><time>Jan 2025</time><span>Two papers accepted at <a href="https://uow-ic2.github.io/acisp2025/cfp.html">ACISP 2025</a>.</span></li>
-      <li class="more"><time>Dec 2024</time><span>Attended <a href="https://asiacrypt.iacr.org/2024/">Asiacrypt 2024</a> (Kolkata, India) and presented <a href="https://eprint.iacr.org/2024/252">one of my accepted papers</a>.</span></li>
-      <li class="more"><time>Dec 2024</time><span>Research visit to CWI (Amsterdam, Netherlands) for a week.</span></li>
-      <li class="more"><time>Aug 2024</time><span>Two papers accepted at <a href="https://asiacrypt.iacr.org/2024/">Asiacrypt 2024</a>.</span></li>
-      <li class="more"><time>Jun 2024</time><span>Summer internship at <a href="https://www.rd.ntt/e/sil/">NTT Social Informatics Laboratories</a>, working with Masayuki Abe (June–August).</span></li>
+      <li><time>Nov 2025</time><span>Research visit to <a href="https://www.rd.ntt/e/sil/">NTT Social Informatics Laboratories</a> for a week.</span></li>
+      <li><time>Nov 2025</time><span>Attended <a href="https://cy2sec.comm.eng.osaka-u.ac.jp/miyaji-lab/event/cans2025/">CANS 2025</a>; <a href="https://eprint.iacr.org/2025/1470">our paper</a> received the Best Paper Award.</span></li>
+      <li><time>Aug 2025</time><span>One paper accepted at ASIACRYPT 2025.</span></li>
+      <li><time>Jul 2025</time><span>Two papers accepted at RANDOM 2025 and CANS 2025; attended ACISP 2025.</span></li>
+      <li><time>Apr 2025</time><span>Joined LIP6 (Sorbonne Université) as a postdoc, hosted by <a href="https://abgrilo.github.io/">Alex B. Grilo</a>.</span></li>
+      <li><time>Mar 2025</time><span>PhD defended — <a href="files/thesis.pdf">thesis here</a>.</span></li>
+      <li><time>Jan 2025</time><span>Two papers accepted at <a href="https://uow-ic2.github.io/acisp2025/cfp.html">ACISP 2025</a>.</span></li>
+      <li><time>Dec 2024</time><span>Attended <a href="https://asiacrypt.iacr.org/2024/">Asiacrypt 2024</a> (Kolkata, India) and presented <a href="https://eprint.iacr.org/2024/252">one of my accepted papers</a>.</span></li>
+      <li><time>Dec 2024</time><span>Research visit to CWI (Amsterdam, Netherlands) for a week.</span></li>
+      <li><time>Aug 2024</time><span>Two papers accepted at <a href="https://asiacrypt.iacr.org/2024/">Asiacrypt 2024</a>.</span></li>
+      <li><time>Jun 2024</time><span>Summer internship at <a href="https://www.rd.ntt/e/sil/">NTT Social Informatics Laboratories</a>, working with Masayuki Abe (June–August).</span></li>
     </ul>
-    <button class="show-more" data-target="newsList" aria-expanded="false">Show earlier news ↓</button>
   </div>
 </section>
 
@@ -319,13 +316,12 @@
       <p class="a"><b>Dung Bui</b>, Geoffroy Couteau, Pierre Meyer, Alain Passelègue, Mahshid Riahinia</p>
       <p class="meta"><span class="venue">EUROCRYPT 2024</span><a href="https://eprint.iacr.org/2024/178">ePrint</a></p>
     </div>
+    <p class="year">2023</p>
     <div class="pub">
       <p class="t">An Efficient ZK Compiler from SIMD Circuits to General Circuits</p>
       <p class="a"><b>Dung Bui</b>, Haotian Chu, Geoffroy Couteau, Xiao Wang, Chenkai Weng, Kang Yang, Yu Yu</p>
       <p class="meta"><span class="venue">J. Cryptology 2024</span><a href="https://eprint.iacr.org/2023/1610">ePrint</a></p>
     </div>
-
-    <p class="year">2023</p>
     <div class="pub">
       <p class="t">Improved Private Set Intersection for Sets with Small Entries</p>
       <p class="a"><b>Dung Bui</b>, Geoffroy Couteau</p>
@@ -347,21 +343,20 @@
       <li><time>Nov 2025</time><span>CANS 2025 (conference) — Osaka, Japan.</span></li>
       <li><time>Sep 2025</time><span>Florida Atlantic University, Crypto Café — virtual.</span></li>
       <li><time>Jul 2025</time><span>ACISP 2025 (conference) — Wollongong, Australia.</span></li>
-      <li class="more"><time>Apr 2025</time><span>VIASM, crypto seminar — virtual.</span></li>
-      <li class="more"><time>Mar 2025</time><span>LIP6, Sorbonne Université, ALMASTY seminar — Paris, France.</span></li>
-      <li class="more"><time>Dec 2024</time><span>Asiacrypt 2024 (conference) — Kolkata, India.</span></li>
-      <li class="more"><time>Dec 2024</time><span>CWI, crypto student seminar — Amsterdam, Netherlands.</span></li>
-      <li class="more"><time>Nov 2024</time><span>Telecom Paris, Institut Polytechnique de Paris, Crypto Day — Paris, France.</span></li>
-      <li class="more"><time>Jun 2024</time><span>NTT Social Informatics Laboratories, crypto seminar — Tokyo, Japan.</span></li>
-      <li class="more"><time>May 2024</time><span>J.P. Morgan, AlgoCRYPT seminar — virtual.</span></li>
-      <li class="more"><time>May 2024</time><span>IRIF, non-permanents' seminar — Paris, France.</span></li>
-      <li class="more"><time>May 2023</time><span>PKC 2023 (conference) — Atlanta, USA.</span></li>
-      <li class="more"><time>May 2023</time><span>VIASM, crypto seminar — virtual.</span></li>
-      <li class="more"><time>Apr 2023</time><span>IRIF, algorithms and complexity seminar — Paris, France.</span></li>
-      <li class="more"><time>Jul 2022</time><span>CWI, crypto student seminar — virtual.</span></li>
-      <li class="more"><time>Apr 2022</time><span>Journées C2 (Codage &amp; Cryptographie) workshop — Hendaye, France.</span></li>
+      <li><time>Apr 2025</time><span>VIASM, crypto seminar — virtual.</span></li>
+      <li><time>Mar 2025</time><span>LIP6, Sorbonne Université, ALMASTY seminar — Paris, France.</span></li>
+      <li><time>Dec 2024</time><span>Asiacrypt 2024 (conference) — Kolkata, India.</span></li>
+      <li><time>Dec 2024</time><span>CWI, crypto student seminar — Amsterdam, Netherlands.</span></li>
+      <li><time>Nov 2024</time><span>Telecom Paris, Institut Polytechnique de Paris, Crypto Day — Paris, France.</span></li>
+      <li><time>Jun 2024</time><span>NTT Social Informatics Laboratories, crypto seminar — Tokyo, Japan.</span></li>
+      <li><time>May 2024</time><span>J.P. Morgan, AlgoCRYPT seminar — virtual.</span></li>
+      <li><time>May 2024</time><span>IRIF, non-permanents' seminar — Paris, France.</span></li>
+      <li><time>May 2023</time><span>PKC 2023 (conference) — Atlanta, USA.</span></li>
+      <li><time>May 2023</time><span>VIASM, crypto seminar — virtual.</span></li>
+      <li><time>Apr 2023</time><span>IRIF, algorithms and complexity seminar — Paris, France.</span></li>
+      <li><time>Jul 2022</time><span>CWI, crypto student seminar — virtual.</span></li>
+      <li><time>Apr 2022</time><span>Journées C2 (Codage &amp; Cryptographie) workshop — Hendaye, France.</span></li>
     </ul>
-    <button class="show-more" data-target="talksList" aria-expanded="false">Show earlier talks ↓</button>
   </div>
 </section>
 
@@ -412,16 +407,6 @@
   tick();
 })();
 
-// Expand/collapse for news and talks
-document.querySelectorAll('.show-more').forEach(btn => {
-  const list = document.getElementById(btn.dataset.target);
-  const noun = btn.dataset.target === 'talksList' ? 'talks' : 'news';
-  btn.addEventListener('click', () => {
-    const open = list.classList.toggle('expanded');
-    btn.setAttribute('aria-expanded', open);
-    btn.textContent = open ? 'Show fewer ↑' : 'Show earlier ' + noun + ' ↓';
-  });
-});
 </script>
 
 </body>
