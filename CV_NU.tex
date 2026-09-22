@@ -1,0 +1,400 @@
+%-------------------------------------------------------------------------------
+% Academic CV --- Dung Bui (Northwestern version)
+% Formatting follows CV.tex: 11pt article, Computer Modern, no colour accents.
+% Content synced with https://dungbui15.github.io/
+% Compile with: pdflatex CV_NU.tex (run twice)
+%-------------------------------------------------------------------------------
+\documentclass[11pt]{article}
+
+\usepackage[T5,T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.8in]{geometry}
+\usepackage{amssymb}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true, urlcolor=blue, linkcolor=black}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[R]{\small\thepage}
+
+% ---- section headings with a rule underneath -------------------------------
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\vspace{-0.6em}\rule{\textwidth}{0.6pt}]
+\titlespacing*{\section}{0pt}{1.1em}{0.5em}
+
+% ---- two-line entry: bold left / right, then detail left / dates right ------
+\newcommand{\entry}[4]{%
+  \noindent\textbf{#1}\hspace{1em}\hfill #2\\[0.15em]
+  \noindent #3\hspace{1em}\hfill #4\par\vspace{0.45em}}
+
+\setlist[enumerate]{leftmargin=1.5em, itemsep=0.35em, topsep=0.3em, parsep=0pt}
+\setlist[itemize]{leftmargin=1.3em, itemsep=0.2em, topsep=0.2em, parsep=0pt}
+\setlength{\parindent}{0pt}
+
+% Vietnamese text (hook-above accents live in the T5 encoding, not T1)
+\newcommand{\vn}[1]{{\fontencoding{T5}\selectfont #1}}
+
+% long venue names and URLs: prefer loose spacing over overfull lines
+\sloppy
+\Urlmuskip=0mu plus 1mu
+
+\begin{document}
+
+% ============================ HEADER ========================================
+\begin{center}
+  {\LARGE\bfseries Dung Bui}\\[0.5em]
+  Postdoctoral Researcher in Cryptography, Northwestern University\\[0.35em]
+  \href{mailto:dung.bui@northwestern.edu}{dung.bui@northwestern.edu} \quad$\cdot$\quad
+  \href{https://dungbui15.github.io}{dungbui15.github.io} \quad$\cdot$\quad
+  \href{https://scholar.google.com/citations?user=StGOHMUAAAAJ}{Google Scholar} \quad$\cdot$\quad
+  \href{https://dblp.uni-trier.de/pid/127/1711.html}{DBLP}
+\end{center}
+\vspace{0.5em}
+
+% ============================ ABOUT =========================================
+\section{About}
+My research focuses on cryptography, including secure multiparty computation, zero-knowledge proofs, and
+post-quantum cryptography. 
+% ============================ POSITIONS =====================================
+\section{Positions}
+
+\entry{Postdoctoral Researcher}{Evanston, IL, USA}
+      {Department of Computer Science, Northwestern University}{July 2026 -- present}
+\vspace{-0.45em}
+\noindent Host: Xiao Wang.\par\vspace{0.45em}
+
+\entry{Postdoctoral Researcher}{Paris, France}
+      {LIP6, Sorbonne Universit\'e / CNRS}{June 2025 -- June 2026}
+\vspace{-0.45em}
+\noindent Hosts: Eleni Diamanti, Alex B. Grilo, Ludovic Perret.\par\vspace{0.45em}
+
+% ============================ EDUCATION =====================================
+\section{Education}
+
+\entry{Universit\'e Paris Cit\'e / CNRS}{Paris, France}
+      {PhD in Computer Science, IRIF}{Sept. 2021 -- Mar. 2025}
+\vspace{-0.45em}
+\noindent Advisor: Geoffroy Couteau.\par\vspace{0.45em}
+\vspace{-0.6em}
+\begin{itemize}
+  \item Thesis: \emph{Efficient Secure Computation from Correlated Pseudorandomness};
+        defended March 2025.
+  \item Honourable mention, PhD Thesis Prize of GDR S\'ecurit\'e (CNRS).
+\end{itemize}
+\vspace{0.45em}
+
+\entry{Universit\'e de Limoges}{Limoges, France}
+      {MSc in Mathematics, Cryptology, Coding \& Applications (CRYPTIS)}{Sept. 2019 -- July 2021}
+\vspace{-0.6em}
+\begin{itemize}
+  \item Highest honours, ranked 1st; fully funded by the Vingroup Scholarship Programme.
+\end{itemize}
+\vspace{0.45em}
+
+\entry{\'Ecole Normale Sup\'erieure de Hanoi}{Hanoi, Vietnam}
+      {BSc in Pure Mathematics; highest honours, top 5\%}{Sept. 2015 -- July 2019}
+
+% ======================== RESEARCH EXPERIENCE ===============================
+\section{Research Experience}
+
+\entry{Visiting Researcher}{Tokyo, Japan}
+      {NTT Social Informatics Laboratories}{June -- Aug. 2024}
+\vspace{-0.45em}
+\noindent Host: Masayuki Abe.\par\vspace{0.45em}
+\vspace{-0.6em}
+\begin{itemize}
+  \item Multi-round zero-knowledge proofs and applications to advanced post-quantum
+        signatures based on MPC.
+\end{itemize}
+\vspace{0.45em}
+
+\entry{Visiting Researcher}{Leuven, Belgium}
+      {COSIC, KU Leuven}{July -- Aug. 2023}
+\vspace{-0.45em}
+\noindent Host: Nigel Smart.\par\vspace{0.45em}
+\vspace{-0.6em}
+\begin{itemize}
+  \item Efficient post-quantum signatures from multiparty computation.
+\end{itemize}
+\vspace{0.45em}
+
+\entry{Research Intern}{Paris, France}
+      {IRIF, Universit\'e Paris Cit\'e}{Mar. -- Aug. 2021}
+\vspace{-0.45em}
+\noindent Advisor: Geoffroy Couteau.\par\vspace{0.45em}
+\vspace{-0.6em}
+\begin{itemize}
+  \item Efficient MPC protocols from pseudorandom correlation generators.
+\end{itemize}
+\vspace{0.45em}
+
+\entry{Research Intern}{Limoges, France}
+      {XLIM, Universit\'e de Limoges}{June -- Aug. 2020}
+\vspace{-0.45em}
+\noindent Advisor: Duong Hieu Phan.\par\vspace{0.45em}
+\vspace{-0.6em}
+\begin{itemize}
+  \item Private set intersection and its applications.
+\end{itemize}
+
+% ============================ PUBLICATIONS ==================================
+\section{Publications}
+
+Author lists follow the alphabetical convention of cryptography. Full versions on
+\href{https://dblp.uni-trier.de/pid/127/1711.html}{DBLP} or
+\href{https://scholar.google.com/citations?user=StGOHMUAAAAJ}{Google Scholar}.
+
+\smallskip
+\textbf{2026}
+\begin{enumerate}
+  \item Practical Adaptor Signature from Online/Offline NIZK\\
+        Masayuki Abe, \textbf{Dung Bui}, Kelong Cong, Miyako Ohkubo, Zehua Shang, Akira Takahashi, Mehdi Tibouchi\\
+        International Conference on the Theory and Application of Cryptology and Information Security (ASIACRYPT), 2026
+  \item Critical Round in Multi-Round Proofs: Compositions and Transformation to Trapdoor Commitments\\
+        Masayuki Abe, David Balb\'as, \textbf{Dung Bui}, Miyako Ohkubo, Zehua Shang, Akira Takahashi, Mehdi Tibouchi\\
+        International Conference on the Theory and Applications of Cryptographic Techniques (EUROCRYPT), 2026
+\end{enumerate}
+
+\smallskip
+\textbf{2025}
+\begin{enumerate}
+  \item New Framework for Structure-Aware PSI from Distributed Function Secret Sharing\\
+        \textbf{Dung Bui}, Gayathri Garimella, Peihan Miao, Phuoc Van Long Pham\\
+        International Conference on the Theory and Application of Cryptology and Information Security (ASIACRYPT), 2025
+  \item Efficient Fuzzy Labeled PSI from Vector Ring-OLE \quad\textbf{(Best Paper Award)}\\
+        \textbf{Dung Bui}, Kelong Cong\\
+        International Conference on Cryptology and Network Security (CANS), 2025
+  \item Structured-Seed Local Pseudorandom Generators and Their Applications\\
+        Benny Applebaum, \textbf{Dung Bui}, Geoffroy Couteau, Nikolas Melissaris\\
+        International Conference on Randomization and Computation (RANDOM), 2025
+  \item Improved All-but-One Vector Commitment with Applications to Post-Quantum Signatures\\
+        \textbf{Dung Bui}, Kelong Cong, Cyprien Delpech de Saint Guilhem\\
+        Australasian Conference on Information Security and Privacy (ACISP), 2025
+  \item Efficient Multi-Instance Vector Commitment and Application to Post-Quantum Signatures\\
+        \textbf{Dung Bui}\\
+        Australasian Conference on Information Security and Privacy (ACISP), 2025
+\end{enumerate}
+
+\smallskip
+\textbf{2024}
+\begin{enumerate}
+  \item FOLEAGE: $\mathbb{F}_4$OLE-Based Multi-Party Computation for Boolean Circuits\\
+        Maxime Bombar, \textbf{Dung Bui}, Geoffroy Couteau, Alain Couvreur, Cl\'ement Ducros, Sacha Servan-Schreiber\\
+        International Conference on the Theory and Application of Cryptology and Information Security (ASIACRYPT), 2024
+  \item Faster Signatures from MPC-in-the-Head\\
+        \textbf{Dung Bui}, Eliana Carozza, Geoffroy Couteau, Dahmun Goudarzi, Antoine Joux\\
+        International Conference on the Theory and Application of Cryptology and Information Security (ASIACRYPT), 2024
+  \item Fast Public-Key Silent OT and More from Constrained Naor-Reingold\\
+        \textbf{Dung Bui}, Geoffroy Couteau, Pierre Meyer, Alain Passel\`egue, Mahshid Riahinia\\
+        International Conference on the Theory and Applications of Cryptographic Techniques (EUROCRYPT), 2024
+\end{enumerate}
+
+\smallskip
+\textbf{2023}
+\begin{enumerate}
+  \item An Efficient ZK Compiler from SIMD Circuits to General Circuits\\
+        \textbf{Dung Bui}, Haotian Chu, Geoffroy Couteau, Xiao Wang, Chenkai Weng, Kang Yang, Yu Yu\\
+        Journal of Cryptology (JoC), 2024
+  \item Improved Private Set Intersection for Sets with Small Entries\\
+        \textbf{Dung Bui}, Geoffroy Couteau\\
+        International Conference on Practice and Theory of Public-Key Cryptography (PKC), 2023
+\end{enumerate}
+
+% ============================ MANUSCRIPTS ===================================
+\section{Manuscripts}
+\begin{enumerate}
+  \item Generic Post-Quantum Anamorphic Signatures: Private, Broadcast, and Threshold Channels from Multi-Round Proofs\\
+        \textbf{Dung Bui}, Francesco Migliaro\\
+        Submitted to EUROCRYPT 2027
+  \item Critical-Round Special Soundness for Multi-Round Proofs\\
+        Masayuki Abe, David Balb\'as, \textbf{Dung Bui}, Miyako Ohkubo, Zehua Shang, Akira Takahashi, Mehdi Tibouchi\\
+        Submitted to EUROCRYPT 2027; Cryptology ePrint Archive, Report 2026/1679
+\end{enumerate}
+
+% ======================== TEACHING & ADVISING ===============================
+\section{Teaching \& Advising}
+
+\entry{Teaching Assistant and Co-instructor}{Evanston, IL, USA}
+      {Northwestern University}{Fall 2026}
+\vspace{-0.6em}
+\begin{itemize}
+  \item COMP\_SCI 307: Introduction to Cryptography (undergraduate).
+\end{itemize}
+\vspace{0.45em}
+
+\entry{Research Supervision}{Evanston, IL, USA}
+      {Fengke Li (BSc student, Shanghai Jiao Tong University)}{July -- Dec. 2026}
+\vspace{-0.45em}
+\noindent Co-supervised with Xiao Wang.\par\vspace{0.45em}
+\vspace{-0.6em}
+\begin{itemize}
+  \item Research internship at Northwestern University.
+\end{itemize}
+
+% ============================ TALKS =========================================
+\section{Talks}
+
+Talks are grouped by research theme; venues are listed most recent first.
+
+\smallskip
+\textbf{Private set intersection}
+
+\smallskip
+\emph{Efficient Fuzzy Labeled PSI from Vector Ring-OLE}
+\begin{itemize}
+  \item CANS 2025, Osaka, Nov. 2025
+\end{itemize}
+
+\smallskip
+\emph{Efficient PSI from Pseudorandom Correlation Generators}
+\begin{itemize}
+  \item Crypto Seminar, COSIC (KU Leuven), July 2023
+  \item Vietnam Institute for Advanced Study in Mathematics (VIASM), May 2023 (virtual)
+  \item Algorithms and Complexity seminar, IRIF, Paris, Apr. 2023
+  \item Crypto Student Seminar, CWI Amsterdam, July 2022 (virtual)
+\end{itemize}
+
+\smallskip
+\emph{Improved Private Set Intersection with Small Entries}
+\begin{itemize}
+  \item PKC 2023, Atlanta, May 2023
+\end{itemize}
+
+\smallskip
+\emph{Private Set Intersection from Correlated Randomness}
+\begin{itemize}
+  \item Journ\'ees C2 (Codage \& Cryptographie) workshop, Hendaye, Apr. 2022
+\end{itemize}
+
+\medskip
+\textbf{Post-quantum signatures}
+
+\smallskip
+\emph{Optimized MPC-in-the-Head Based Signatures from Puncturable PRF}
+\begin{itemize}
+  \item Crypto Seminar, NTT Social Informatics Laboratories, Tokyo, Nov. 2025
+  \item Vietnam Institute for Advanced Study in Mathematics (VIASM), Apr. 2025 (virtual)
+  \item Crypto Student Seminar, CWI Amsterdam, Dec. 2024
+  \item Crypto Day, T\'el\'ecom Paris (Institut Polytechnique de Paris), Nov. 2024
+\end{itemize}
+
+\smallskip
+\emph{Improved All-but-One Vector Commitment with Applications to Post-Quantum Signatures}
+\begin{itemize}
+  \item ACISP 2025, Wollongong, July 2025
+\end{itemize}
+
+\smallskip
+\emph{Faster Signatures from MPC-in-the-Head}
+\begin{itemize}
+  \item ASIACRYPT 2024, Kolkata, Dec. 2024
+\end{itemize}
+
+\medskip
+\textbf{MPC in the preprocessing model}
+
+\smallskip
+\emph{FOLEAGE: $\mathbb{F}_4$OLE-Based Multi-Party Computation for Boolean Circuits}
+\begin{itemize}
+  \item Crypto Caf\'e, Florida Atlantic University, Sept. 2025 (virtual)
+  \item ALMASTY seminar, LIP6, Sorbonne Universit\'e, Mar. 2025
+\end{itemize}
+
+\smallskip
+\emph{Fast Public-Key Silent OT and More from Constrained Naor-Reingold}
+\begin{itemize}
+  \item AlgoCRYPT seminar, J.P. Morgan, May 2024 (virtual)
+  \item Non-permanents' seminar, IRIF, Paris, May 2024
+\end{itemize}
+
+\smallskip
+\emph{Efficient MPC from Correlated Randomness}
+\begin{itemize}
+  \item Crypto Seminar, NTT Social Informatics Laboratories, Tokyo, June 2024
+\end{itemize}
+
+\medskip
+\textbf{Zero-knowledge proofs}
+
+\smallskip
+\emph{Critical Round in Multi-Round Zero-Knowledge Proofs}
+\begin{itemize}
+  \item Vietnam Institute for Advanced Study in Mathematics (VIASM), May 2026 (virtual)
+  \item ALMASTY seminar, Sorbonne Universit\'e, Apr. 2026
+  \item Cybers\'ecurit\'e DVRC/ESILV workshop, Paris, Mar. 2026
+  \item INRIA C2 (Codage \& Cryptographie) seminar, Paris, Jan. 2026
+\end{itemize}
+
+% ======================== FELLOWSHIPS & AWARDS ==============================
+\section{Fellowships \& Awards}
+\begin{enumerate}
+  \item Honourable Mention, 2025 PhD Thesis Prize of GDR S\'ecurit\'e (CNRS), awarded 2026: annual national award recognizing excellent PhD theses in information security in France.
+  \item Best Paper Award, CANS 2025, for \emph{Efficient Fuzzy Labeled PSI from Vector Ring-OLE}.
+  \item Fully funded doctoral grant (36 months), DIM Math Innov / FSMP, 2021--2025: awarded by the \^Ile-de-France Region; up to 9 PhD fellowships across mathematics and computer science.
+  \item Silver Medal, NSUCRYPTO International Olympiad in Cryptography, 2021.
+  \item Fully funded scholarship, Vingroup Scholarship Programme (30\,000 EUR), 2019--2021, for the CRYPTIS MSc at the Universit\'e de Limoges.
+  \item VIASM Scholarship (3\,000 EUR), National Programme for the Development of Mathematics, Vietnam Institute for Advanced Study in Mathematics, 2017--2019.
+  \item Bronze Medal, Vietnam National Mathematical Olympiad (VMO), 2015: part of the selection process for the International Mathematical Olympiad (IMO).
+\end{enumerate}
+
+% ======================== PROFESSIONAL SERVICE ==============================
+\section{Professional Service}
+
+\textbf{Programme committee member:} CSF 2027; APKC 2026, CCS 2026, ASIACRYPT Artifacts 2026;
+APKC 2025, LATINCRYPT 2025.
+
+\smallskip
+\textbf{External reviewer:} CRYPTO 2025 ($\times 3$), 2026 ($\times 3$); EUROCRYPT 2025,
+2026 ($\times 2$); ASIACRYPT 2025, 2026 ($\times 2$); PKC 2026; ICALP 2026; CCS 2025; ACNS 2025;
+PriCrypt 2025; TCC, CSF and IEEE TIFS, 2022--2024.
+
+\smallskip
+\textbf{Organiser:} IRIF Crypto Seminar, 2024--2025.
+
+% ============================ OUTREACH ======================================
+\section{Outreach}
+\begin{itemize}
+  \item Member, Advanced Cryptography Research Lab, a joint initiative between VIASM and the
+        Vietnam Government Information Security Commission, 2025--
+        (\url{https://acr-lab.github.io/}).
+  \item Featured interview, \emph{Meet the Women Experts in Quantum Science}, QICS,
+        Sorbonne Universit\'e, 2025: on career paths and motivation in post-quantum
+        cryptography
+        (\href{https://qics.sorbonne-universite.fr/en/news-qics/meet-women-experts-quantum-science/interview-dung-bui-postdoctoral-fellow-lip6}{link}).
+  \item Co-organizer of QATS, an educational board game on quantum mechanics, and activity
+        leader at \emph{Quantum Day (Lumi\`ere sur la quantique)}, organized by DIM QuanTiP,
+        PCQT, Quantum Saclay, Atouts Sciences, QICS, and la SFP, 2026
+        (\url{https://quantip.org/espace-grand-public/quantum-day/}).
+  \item Featured interview, \emph{\vn{Tuổi Trẻ}} (Vietnamese national magazine), 2019:
+        on career paths and motivation in cryptography
+        (\href{https://tuoitre.vn/made-by-vietnam-khi-giac-mo-duoc-chap-canh-20190602203241824.htm}{link}).
+  \item Founder and author of the Vcryptis blog: practical advice on student life and
+        academics at the Universit\'e de Limoges, 2019--2021
+        (\url{http://vcryptis.tech.blog/}).
+\end{itemize}
+
+% ============================ LANGUAGES =====================================
+\section{Languages}
+
+Vietnamese (native) \quad$\cdot$\quad English (professional proficiency) \quad$\cdot$\quad
+French (DELF B2).
+
+% ============================ REFERENCES ====================================
+\section{References}
+
+\entry{Geoffroy Couteau}{CNRS, IRIF, Universit\'e Paris Cit\'e}
+      {PhD advisor}{\href{mailto:couteau@irif.fr}{couteau@irif.fr}}
+
+\entry{Xiao Wang}{Northwestern University}
+      {Postdoctoral host}{\href{mailto:wangxiao@northwestern.edu}{wangxiao@northwestern.edu}}
+
+\entry{Masayuki Abe}{NTT Social Informatics Laboratories}
+      {Research collaborator and host}{\href{mailto:msyk.abe@ntt.com}{msyk.abe@ntt.com}}
+
+\vfill
+{\small\hfill Last updated: September 2026}
+
+\end{document}
