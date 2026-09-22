@@ -52,7 +52,7 @@
   }
   .strip .wrap{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap}
   .strip nav{display:flex;gap:1.15rem;flex-wrap:wrap}
-  .strip nav a{color:var(--muted)}
+  .strip nav a{color:var(--muted);white-space:nowrap}
   .strip nav a:hover{color:var(--link);border-bottom-color:transparent}
 
   /* ── title block ─────────────────────────────────────── */
@@ -158,6 +158,11 @@
     content:"▸";position:absolute;left:0;color:var(--link);
   }
   .topics b{font-weight:600}
+  .subhead{
+    font-family:"IBM Plex Mono",monospace;
+    font-size:.74rem;color:var(--muted);margin-bottom:.35rem;
+  }
+  .topics + .subhead{margin-top:.2rem}
 
   /* activities */
   .act{display:grid;grid-template-columns:10.5rem 1fr;gap:.35rem 1.2rem}
@@ -195,7 +200,7 @@
       <a href="#news">News</a>
       <a href="#publications">Publications</a>
       <a href="#presentations">Talks</a>
-      <a href="#teaching">Teaching</a>
+      <a href="#teaching">Teaching &amp; Advising</a>
       <a href="#activities">Service</a>
       <a href="#contact">Contact</a>
     </nav>
@@ -235,7 +240,7 @@
   <div class="wrap">
     <p class="sec-label">§2 &nbsp;News</p>
     <ul class="tl" id="newsList">
-      <li><time>Aug 2026</time><span>Attended CRYPTO 2026 and PC of CSF 2027; one paper on Adaptor Signature was accepted at ASIACRYPT 2026; work on critical-round ZK is on eprint.</span></li>
+      <li><time>Aug 2026</time><span>Attended CRYPTO 2026; PC of CSF 2027 and ASIACRYPT Artifacts 2026; one paper on Adaptor Signature was accepted at ASIACRYPT 2026; work on critical-round ZK is on eprint.</span></li>
       <li><time>Jul 2026</time><span>Joined Northwestern University as a postdoc.</span></li>
       <li><time>Jun 2026</time><span>Visit Carsten Baum (DTU) and Geoffroy Couteau (IRIF).</span></li>
       <li><time>May 2026</time><span>Talk at the Vietnam Institute for Advanced Study in Mathematics (VIASM), virtual.</span></li>
@@ -386,13 +391,15 @@
 
 <section id="teaching">
   <div class="wrap">
-    <p class="sec-label">§5 &nbsp;Teaching &amp; Supervision</p>
-    <dl class="act">
-      <dt>Teaching</dt>
-      <dd>Fall 2026: COMP_SCI 307 Introduction to Cryptography (undergraduate), Northwestern University — teaching assistant and co-instructor.</dd>
-      <dt>Research supervision</dt>
-      <dd>Jul–Dec 2026: Fengke Li (bachelor’s student, Shanghai Jiao Tong University), research internship at Northwestern University, on adaptor signatures from ML-DSA. Co-supervised with <a href="https://wangxiao1254.github.io/">Xiao Wang</a>.</dd>
-    </dl>
+    <p class="sec-label">§5 &nbsp;Teaching &amp; Advising</p>
+    <p class="subhead">Teaching</p>
+    <ul class="topics">
+      <li>Fall 2026: <b>COMP_SCI 307 Introduction to Cryptography</b> (undergraduate), Northwestern University, teaching assistant and co-instructor.</li>
+    </ul>
+    <p class="subhead">Advising</p>
+    <ul class="topics" style="margin-bottom:0">
+      <li>Jul–Dec 2026: <b>Fengke Li</b> (bachelor’s student, Shanghai Jiao Tong University), research internship at Northwestern University. Co-supervised with <a href="https://wangxiao1254.github.io/">Xiao Wang</a>.</li>
+    </ul>
   </div>
 </section>
 
@@ -401,7 +408,7 @@
     <p class="sec-label">§6 &nbsp;Service</p>
     <dl class="act">
       <dt>Program committee</dt>
-      <dd>2027: CSF<br>2026: APKC, CCS<br>2025: APKC, LATINCRYPT</dd>
+      <dd>2027: CSF<br>2026: APKC, CCS, ASIACRYPT Artifacts<br>2025: APKC, LATINCRYPT</dd>
       <dt>External reviewer</dt>
       <dd>2026: EUROCRYPT, PKC, ICALP, CRYPTO, ASIACRYPT<br>2025: EUROCRYPT, ACNS, CRYPTO, PriCrypt, CCS, ASIACRYPT<br>2022–2024: TCC, CSF, IEEE-TIFS</dd>
     </dl>
