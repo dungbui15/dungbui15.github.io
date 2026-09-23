@@ -1,5 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1790181921.82746 "CV_NU.tex" "CV_NU.pdf" "CV_NU" 1790181922.21183 0
+["pdflatex"] 1790182412.73917 "/Users/dungbui/Desktop/Crypto/dungbui15.github.io/CV_NU.tex" "CV_NU.pdf" "CV_NU" 1790182413.1045 0
+  "/Users/dungbui/Desktop/Crypto/dungbui15.github.io/CV_NU.tex" 1790182412.6698 17625 5bc36e7f7825e81b4902194a88257b87 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -93,9 +94,9 @@
   "/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1783716297 5573038 b99aad5e4898a9034e953632f940512b ""
   "/usr/local/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt" 1774209607 3636776 dc5fa9b6b1453b9d196cd42edf876004 ""
   "/usr/local/texlive/2026/texmf.cnf" 1774209515 577 648cd9f92f9c0eac486f4c71c85cfbbe ""
-  "CV_NU.aux" 1790181922.13999 1589 b463b1d60a9c389de0695003d480d16e "pdflatex"
-  "CV_NU.out" 1790181922.14025 1371 f59e824c5bc683dc5f366d5a10741d76 "pdflatex"
-  "CV_NU.tex" 1790181865.86806 17320 e2cd87163d90b37022556685035b15f6 ""
+  "CV_NU.aux" 1790182413.05219 1589 b463b1d60a9c389de0695003d480d16e "pdflatex"
+  "CV_NU.out" 1790182413.05249 1371 f59e824c5bc683dc5f366d5a10741d76 "pdflatex"
+  "CV_NU.tex" 1790182412.6698 17625 5bc36e7f7825e81b4902194a88257b87 ""
   (generated)
   "CV_NU.aux"
   "CV_NU.log"

@@ -2,7 +2,7 @@ PWD /Users/dungbui/Desktop/Crypto/dungbui15.github.io
 INPUT /usr/local/texlive/2026/texmf.cnf
 INPUT /usr/local/texlive/2026/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT CV_NU.tex
+INPUT /Users/dungbui/Desktop/Crypto/dungbui15.github.io/CV_NU.tex
 OUTPUT CV_NU.log
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/base/article.cls
