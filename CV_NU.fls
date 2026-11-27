@@ -89,6 +89,8 @@ INPUT /usr/local/texlive/2026/texmf-dist/tex/generic/uniquecounter/uniquecounter
 INPUT /usr/local/texlive/2026/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/needspace/needspace.sty
+INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/needspace/needspace.sty
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT ./CV_NU.aux
@@ -159,7 +161,6 @@ INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/vntex/vnr/vnti10.tfm
 INPUT CV_NU.aux
 INPUT ./CV_NU.out
 INPUT ./CV_NU.out
-INPUT /usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb

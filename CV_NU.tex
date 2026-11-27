@@ -8,13 +8,14 @@
 
 \usepackage[T5,T1]{fontenc}
 \usepackage[utf8]{inputenc}
-\usepackage[margin=0.8in]{geometry}
+\usepackage[hmargin=0.8in,vmargin=0.7in]{geometry}
 \usepackage{amssymb}
 \usepackage{titlesec}
 \usepackage{enumitem}
 \usepackage{hyperref}
 \hypersetup{colorlinks=true, urlcolor=blue, linkcolor=black}
 \usepackage{fancyhdr}
+\usepackage{needspace}
 
 \pagestyle{fancy}
 \fancyhf{}
@@ -27,6 +28,7 @@
 
 % ---- two-line entry: bold left / right, then detail left / dates right ------
 \newcommand{\entry}[4]{%
+  \needspace{3\baselineskip}% never start an entry in the last lines of a page
   \noindent\textbf{#1}\hspace{1em}\hfill #2\\[0.15em]
   \noindent #3\hspace{1em}\hfill #4\par\vspace{0.45em}}
 
@@ -220,6 +222,14 @@ Author lists follow the alphabetical convention of cryptography. Full versions o
 \vspace{-0.6em}
 \begin{itemize}
       \item COMP\_SCI 307: Introduction to Cryptography (undergraduate).
+\end{itemize}
+\vspace{0.45em}
+
+\entry{Invited Lecture}{Urbana-Champaign, IL, USA}
+{University of Illinois Urbana-Champaign (UIUC)}{Fall 2026}
+\vspace{-0.6em}
+\begin{itemize}
+      \item ECE 407: Cryptography. Lecture: \emph{Introduction to Multiparty Computation}.
 \end{itemize}
 \vspace{0.45em}
 
